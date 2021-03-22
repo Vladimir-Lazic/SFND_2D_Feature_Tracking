@@ -15,6 +15,7 @@
 
 #include "dataStructures.h"
 #include "matching2D.hpp"
+#include "ring_buffer/ring_buffer.h"
 
 using namespace std;
 
@@ -58,6 +59,7 @@ int main(int argc, const char *argv[])
 
         //// STUDENT ASSIGNMENT
         //// TASK MP.1 -> replace the following code with ring buffer of size dataBufferSize
+        ring_buffer<DataFrame> img_buffer(3);
 
         // push image into data frame buffer
         DataFrame frame;
