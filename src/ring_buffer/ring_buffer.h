@@ -23,7 +23,7 @@ public:
     bool is_empty() const;
     bool is_full() const;
     int capacity() const;
-    int size() const;
+    int free_space() const;
 };
 
 #endif // RING_BUFFER

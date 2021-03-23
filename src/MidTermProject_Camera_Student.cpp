@@ -37,7 +37,7 @@ int main(int argc, const char *argv[])
     int imgFillWidth = 4;  // no. of digits which make up the file index (e.g. img-0001.png)
 
     // misc
-    int dataBufferSize = 2;       // no. of images which are held in memory (ring buffer) at the same time
+    int dataBufferSize = 3;       // no. of images which are held in memory (ring buffer) at the same time
     vector<DataFrame> dataBuffer; // list of data frames which are held in memory at the same time
     bool bVis = false;            // visualize results
 
@@ -58,12 +58,13 @@ int main(int argc, const char *argv[])
         cv::cvtColor(img, imgGray, cv::COLOR_BGR2GRAY);
 
         //// STUDENT ASSIGNMENT
-        //// TASK MP.1 -> replace the following code with ring buffer of size dataBufferSize
-        ring_buffer<DataFrame> img_buffer(3);
-
-        // push image into data frame buffer
         DataFrame frame;
         frame.cameraImg = imgGray;
+        //// TASK MP.1 -> replace the following code with ring buffer of size dataBufferSize
+        ring_buffer<DataFrame> img_buffer(dataBufferSize);
+
+        // push image into data frame buffer
+        img_buffer.insert(frame);
         dataBuffer.push_back(frame);
 
         //// EOF STUDENT ASSIGNMENT

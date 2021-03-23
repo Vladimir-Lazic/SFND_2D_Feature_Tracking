@@ -3,41 +3,74 @@
 template <typename T>
 void ring_buffer<T>::insert(T item)
 {
-    return;
+    _buffer[_head] = item;
+
+    if (_full)
+    {
+        _tail = (_tail + 1) % _buffer_size;
+    }
+
+    _head = (_head + 1) % _buffer_size;
+
+    _full = _head == _tail;
 }
 
 template <typename T>
 T ring_buffer<T>::get()
 {
-    return T();
+    if (is_empty())
+    {
+        return T();
+    }
+
+    // Read the data and advance the tail
+    auto item = _buffer[_tail];
+    _full = false;
+    _tail = (_tail + 1) % _buffer_size;
+    return item;
 }
 
 template <typename T>
 void ring_buffer<T>::reset()
 {
-    return;
+    _head = _tail;
+    _full = false;
 }
 
 template <typename T>
 bool ring_buffer<T>::is_empty() const
 {
-    return false;
+    return (_full && (_head == _tail));
 }
 
 template <typename T>
 bool ring_buffer<T>::is_full() const
 {
-    return false;
+    return _full;
 }
 
 template <typename T>
 int ring_buffer<T>::capacity() const
 {
-    return 0;
+    return _buffer_size;
 }
 
 template <typename T>
-int ring_buffer<T>::size() const
+int ring_buffer<T>::free_space() const
 {
-    return 0;
+    int size = _buffer_size;
+
+    if (!_full)
+    {
+        if (_head >= _tail)
+        {
+            size = _head - _tail;
+        }
+        else
+        {
+            size = _buffer_size + _head - _tail;
+        }
+    }
+
+    return size;
 }
