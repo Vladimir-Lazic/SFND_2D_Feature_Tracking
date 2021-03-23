@@ -16,18 +16,21 @@ void ring_buffer<T>::insert(T item)
 }
 
 template <typename T>
-T ring_buffer<T>::get()
+T& ring_buffer<T>::get()
 {
     if (is_empty())
     {
         return T();
     }
 
-    // Read the data and advance the tail
-    auto item = _buffer[_tail];
+    return _buffer[_tail];
+}
+
+template <typename T>
+void ring_buffer<T>::pop()
+{
     _full = false;
     _tail = (_tail + 1) % _buffer_size;
-    return item;
 }
 
 template <typename T>
@@ -56,7 +59,7 @@ int ring_buffer<T>::capacity() const
 }
 
 template <typename T>
-int ring_buffer<T>::free_space() const
+int ring_buffer<T>::size() const
 {
     int size = _buffer_size;
 

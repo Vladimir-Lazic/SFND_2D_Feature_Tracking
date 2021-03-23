@@ -14,8 +14,6 @@ src/ring_buffer.h)
 link_directories(${OpenCV_LIBRARY_DIRS})
 add_definitions(${OpenCV_DEFINITIONS})
 
-add_subdirectory(src/ring_buffer)
-
 # Executable for create matrix exercise
 add_executable (2D_feature_tracking src/matching2D_Student.cpp src/MidTermProject_Camera_Student.cpp)
-target_link_libraries (2D_feature_tracking ${OpenCV_LIBRARIES} ring_buffer_library)
+target_link_libraries (2D_feature_tracking ${OpenCV_LIBRARIES})
