@@ -146,6 +146,7 @@ void detKeypointsHarris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool
     int minResponse = 100; // minimum value for a corner in the 8bit scaled response matrix
     double k = 0.04;       // Harris parameter (see equation for details)
 
+    double t = (double)cv::getTickCount();
     // Detect Harris corners and normalize output
     cv::Mat dst, dst_norm;
     dst = cv::Mat::zeros(img.size(), CV_32FC1);
@@ -160,8 +161,10 @@ void detKeypointsHarris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool
         for (size_t i = 0; i < dst_norm.cols; i++)
         {
             int response = (int)dst_norm.at<float>(j, i);
+
+            // only store points above a threshold
             if (response > minResponse)
-            { // only store points above a threshold
+            {
 
                 cv::KeyPoint newKeyPoint;
                 newKeyPoint.pt = cv::Point2f(i, j);
@@ -190,6 +193,8 @@ void detKeypointsHarris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool
             }
         } // eof loop over cols
     }     // eof loop over rows
+    t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
+    cout << "HARRIS with n= " << keypoints.size() << " keypoints in " << 1000 * t / 1.0 << " ms" << endl;
 
     // visualize results
     if (bVis)
@@ -204,6 +209,30 @@ void detKeypointsHarris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool
 }
 void detKeypointsFast(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
+    // difference between intensity of the central pixel and pixels of a circle around this pixel
+    int threshold = 30;
+
+    // perform non-maxima suppression on keypoints
+    bool bNMS = true;
+
+    cv::FastFeatureDetector::DetectorType type = cv::FastFeatureDetector::TYPE_9_16; // TYPE_9_16, TYPE_7_12, TYPE_5_8
+    cv::Ptr<cv::FeatureDetector> detector = cv::FastFeatureDetector::create(threshold, bNMS, type);
+
+    double t = (double)cv::getTickCount();
+    detector->detect(img, keypoints);
+    t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
+    cout << "FAST with n= " << keypoints.size() << " keypoints in " << 1000 * t / 1.0 << " ms" << endl;
+
+    // visualize results
+    if (bVis)
+    {
+        cv::Mat visImage = img.clone();
+        cv::drawKeypoints(img, keypoints, visImage, cv::Scalar::all(-1), cv::DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
+        string windowName = "Harris Corner Detector Results";
+        cv::namedWindow(windowName, 6);
+        imshow(windowName, visImage);
+        cv::waitKey(0);
+    }
 }
 void detKeypointsBrisk(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {

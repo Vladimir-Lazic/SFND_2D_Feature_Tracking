@@ -68,11 +68,11 @@ int main(int argc, const char *argv[])
 
             - extract 2D keypoints from current image
             - create empty feature list for current image
-            - invode desired detector        
+            - invoke desired detector        
          */
 
         vector<cv::KeyPoint> keypoints;
-        string detectorType = "HARRIS";
+        string detectorType = "FAST";
 
         try
         {
