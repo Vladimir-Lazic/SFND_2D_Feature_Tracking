@@ -61,6 +61,42 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
     cout << descriptorType << " descriptor extraction in " << 1000 * t / 1.0 << " ms" << endl;
 }
 
+void detect_keypoints(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std::string detector_type, bool bVis)
+{
+    if (detector_type.compare("SHITOMASI") == 0)
+    {
+        detKeypointsShiTomasi(keypoints, img, bVis);
+    }
+    else if (detector_type.compare("HARRIS") == 0)
+    {
+        detKeypointsHarris(keypoints, img, bVis);
+    }
+    else if (detector_type.compare("FAST") == 0)
+    {
+        detKeypointsFast(keypoints, img, bVis);
+    }
+    else if (detector_type.compare("BRISK") == 0)
+    {
+        detKeypointsBrisk(keypoints, img, bVis);
+    }
+    else if (detector_type.compare("ORB") == 0)
+    {
+        detKeypointsOrb(keypoints, img, bVis);
+    }
+    else if (detector_type.compare("AKAZE") == 0)
+    {
+        detKeypointsAkaze(keypoints, img, bVis);
+    }
+    else if (detector_type.compare("SIFT") == 0)
+    {
+        detKeypointsSift(keypoints, img, bVis);
+    }
+    else
+    {
+        throw "Unsupported detector!";
+    }
+}
+
 // Detect keypoints in image using the traditional Shi-Thomasi detector
 void detKeypointsShiTomasi(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
@@ -100,4 +136,23 @@ void detKeypointsShiTomasi(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool b
         imshow(windowName, visImage);
         cv::waitKey(0);
     }
+}
+
+void detKeypointsHarris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+{
+}
+void detKeypointsFast(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+{
+}
+void detKeypointsBrisk(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+{
+}
+void detKeypointsOrb(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+{
+}
+void detKeypointsAkaze(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+{
+}
+void detKeypointsSift(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+{
 }

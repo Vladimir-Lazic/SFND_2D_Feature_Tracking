@@ -45,7 +45,9 @@ int main(int argc, const char *argv[])
 
     for (size_t imgIndex = 0; imgIndex <= imgEndIndex - imgStartIndex; imgIndex++)
     {
-        /* LOAD IMAGE INTO BUFFER */
+        /* 
+            LOAD IMAGE 
+        */
 
         // assemble filenames for current index
         ostringstream imgNumber;
@@ -62,25 +64,26 @@ int main(int argc, const char *argv[])
 
         cout << "#1 : LOAD IMAGE INTO BUFFER done" << endl;
 
-        /* DETECT IMAGE KEYPOINTS */
+        /* 
+            DETECT IMAGE KEYPOINTS
 
-        // extract 2D keypoints from current image
-        vector<cv::KeyPoint> keypoints; // create empty feature list for current image
+            - extract 2D keypoints from current image
+            - create empty feature list for current image
+            - invode desired detector        
+         */
+
+        vector<cv::KeyPoint> keypoints;
         string detectorType = "SHITOMASI";
 
-        //// STUDENT ASSIGNMENT
-        //// TASK MP.2 -> add the following keypoint detectors in file matching2D.cpp and enable string-based selection based on detectorType
-        //// -> HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
-
-        if (detectorType.compare("SHITOMASI") == 0)
+        try
         {
-            detKeypointsShiTomasi(keypoints, imgGray, false);
+            detect_keypoints(keypoints, imgGray, detectorType, false);
         }
-        else
+        catch (const char *msg)
         {
-            //...
+            cerr << msg << endl;
+            return -1;
         }
-        //// EOF STUDENT ASSIGNMENT
 
         //// STUDENT ASSIGNMENT
         //// TASK MP.3 -> only keep keypoints on the preceding vehicle
