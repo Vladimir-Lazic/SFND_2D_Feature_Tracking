@@ -31,14 +31,14 @@ public:
         _full = _head == _tail;
     }
      
-    T get()
+    T* get()
     {
         if (is_empty())
         {
-            return T();
+            return nullptr;
         }
 
-        return _buffer[_tail];
+        return &_buffer[_tail];
     }
 
     void pop()

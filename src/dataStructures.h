@@ -9,9 +9,7 @@
 */
 struct DataFrame
 {
-
     cv::Mat cameraImg; // camera image
-
     std::vector<cv::KeyPoint> keypoints; // 2D keypoints within camera image
     cv::Mat descriptors;                 // keypoint descriptors
     std::vector<cv::DMatch> kptMatches;  // keypoint matches between previous and current frame
