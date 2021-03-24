@@ -68,7 +68,8 @@ int main(int argc, const char *argv[])
 
             - extract 2D keypoints from current image
             - create empty feature list for current image
-            - invoke desired detector        
+            - invoke desired detector   
+            - only keep keypoints on the preceding vehicle
          */
 
         vector<cv::KeyPoint> keypoints;
@@ -84,18 +85,20 @@ int main(int argc, const char *argv[])
             return -1;
         }
 
-        //// STUDENT ASSIGNMENT
-        //// TASK MP.3 -> only keep keypoints on the preceding vehicle
-
-        // only keep keypoints on the preceding vehicle
         bool bFocusOnVehicle = true;
         cv::Rect vehicleRect(535, 180, 180, 150);
         if (bFocusOnVehicle)
         {
-            // ...
+            vector<cv::KeyPoint> relevant_keypoints;
+            for (auto it = keypoints.begin(); it != keypoints.end(); it++)
+            {
+                if (vehicleRect.contains(it->pt))
+                {
+                    relevant_keypoints.push_back(*it);
+                }
+            }
+            keypoints = relevant_keypoints;
         }
-
-        //// EOF STUDENT ASSIGNMENT
 
         // optional : limit number of keypoints (helpful for debugging and learning)
         bool bLimitKpts = false;
