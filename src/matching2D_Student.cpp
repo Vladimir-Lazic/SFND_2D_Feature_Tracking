@@ -44,7 +44,7 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
 
         int threshold = 30;        // FAST/AGAST detection threshold score.
         int octaves = 3;           // detection octaves (use 0 to do single scale)
-        float patternScale = 1.0f; // apply this scale to the pattern used for sampling the neighbourhood of a keypoint.
+        float patternScale = 1.0f; // apply this scale to the pattern used for sampling the neighborhood of a keypoint.
 
         extractor = cv::BRISK::create(threshold, octaves, patternScale);
     }
@@ -171,7 +171,7 @@ void detKeypointsHarris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool
                 newKeyPoint.size = 2 * apertureSize;
                 newKeyPoint.response = response;
 
-                // perform non-maximum suppression (NMS) in local neighbourhood around new key point
+                // perform non-maximum suppression (NMS) in local neighborhood around new key point
                 bool bOverlap = false;
                 for (auto it = keypoints.begin(); it != keypoints.end(); ++it)
                 {
@@ -228,7 +228,7 @@ void detKeypointsFast(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool b
     {
         cv::Mat visImage = img.clone();
         cv::drawKeypoints(img, keypoints, visImage, cv::Scalar::all(-1), cv::DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
-        string windowName = "Harris Corner Detector Results";
+        string windowName = "FAST Detector Results";
         cv::namedWindow(windowName, 6);
         imshow(windowName, visImage);
         cv::waitKey(0);
@@ -236,6 +236,27 @@ void detKeypointsFast(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool b
 }
 void detKeypointsBrisk(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
+    int threshold = 60;
+    int octaves = 4; // (pyramid layer) from which the keypoint has been extracted
+    float pattern_scales = 1.0f;
+
+    cv::Ptr<cv::BRISK> brisk_detector = cv::BRISK::create(threshold, octaves, pattern_scales);
+
+    double t = (double)cv::getTickCount();
+    brisk_detector->detect(img, keypoints);
+    t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
+    cout << "BRISK with n= " << keypoints.size() << " keypoints in " << 1000 * t / 1.0 << " ms" << endl;
+
+    // visualize results
+    if (bVis)
+    {
+        cv::Mat visImage = img.clone();
+        cv::drawKeypoints(img, keypoints, visImage, cv::Scalar::all(-1), cv::DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
+        string windowName = "BRISK Detector Results";
+        cv::namedWindow(windowName, 6);
+        imshow(windowName, visImage);
+        cv::waitKey(0);
+    }
 }
 void detKeypointsOrb(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
