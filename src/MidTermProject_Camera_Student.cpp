@@ -72,7 +72,7 @@ int main(int argc, const char *argv[])
          */
 
         vector<cv::KeyPoint> keypoints;
-        string detectorType = "BRISK";
+        string detectorType = "SIFT";
 
         try
         {
