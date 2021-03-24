@@ -62,8 +62,7 @@ int main(int argc, const char *argv[])
         DataFrame frame;
         frame.cameraImg = imgGray;
 
-        cout << "#1 : LOAD IMAGE INTO BUFFER done" << endl;
-
+        cout << "#1 : LOAD IMAGE done" << endl;
         /* 
             DETECT IMAGE KEYPOINTS
 
@@ -73,11 +72,11 @@ int main(int argc, const char *argv[])
          */
 
         vector<cv::KeyPoint> keypoints;
-        string detectorType = "SHITOMASI";
+        string detectorType = "HARRIS";
 
         try
         {
-            detect_keypoints(keypoints, imgGray, detectorType, false);
+            detect_keypoints(keypoints, imgGray, detectorType, true);
         }
         catch (const char *msg)
         {
