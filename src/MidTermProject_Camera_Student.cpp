@@ -73,7 +73,7 @@ int main(int argc, const char *argv[])
          */
 
         vector<cv::KeyPoint> keypoints;
-        string detectorType = "SIFT";
+        string detectorType = "AKAZE";
 
         try
         {
@@ -118,16 +118,23 @@ int main(int argc, const char *argv[])
         frame.keypoints = keypoints;
         cout << "#2 : DETECT KEYPOINTS done" << endl;
 
-        /* EXTRACT KEYPOINT DESCRIPTORS */
-
-        //// STUDENT ASSIGNMENT
-        //// TASK MP.4 -> add the following descriptors in file matching2D.cpp and enable string-based selection based on descriptorType
-        //// -> BRIEF, ORB, FREAK, AKAZE, SIFT
+        /* 
+            EXTRACT KEYPOINT DESCRIPTORS 
+        
+        */
 
         cv::Mat descriptors;
-        string descriptorType = "BRISK"; // BRIEF, ORB, FREAK, AKAZE, SIFT
-        descKeypoints(frame.keypoints, frame.cameraImg, descriptors, descriptorType);
-        //// EOF STUDENT ASSIGNMENT
+        string descriptorType = "AKAZE"; // BRIEF, ORB, FREAK, AKAZE, SIFT
+        try
+        {
+            keypoints_descriptor(frame.keypoints, frame.cameraImg, descriptors, descriptorType);
+        }
+        catch (const char *msg)
+        {
+            cerr << msg << endl;
+            return -1;
+        }
+
 
         // push descriptors for current frame to end of data buffer
         frame.descriptors = descriptors;

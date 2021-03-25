@@ -35,25 +35,43 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
 }
 
 // Use one of several types of state-of-art descriptors to uniquely identify keypoints
-void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descriptors, string descriptorType)
+void keypoints_descriptor(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descriptors, string descriptorType)
 {
     // select appropriate descriptor
+    // BRIEF, ORB, FREAK, AKAZE and SIFT
     cv::Ptr<cv::DescriptorExtractor> extractor;
     if (descriptorType.compare("BRISK") == 0)
     {
-
         int threshold = 30;        // FAST/AGAST detection threshold score.
         int octaves = 3;           // detection octaves (use 0 to do single scale)
         float patternScale = 1.0f; // apply this scale to the pattern used for sampling the neighborhood of a keypoint.
 
         extractor = cv::BRISK::create(threshold, octaves, patternScale);
     }
+    else if (descriptorType.compare("BRIEF") == 0)
+    {
+        extractor = cv::xfeatures2d::BriefDescriptorExtractor::create();
+    }
+    else if (descriptorType.compare("ORB") == 0)
+    {
+        extractor = cv::ORB::create();
+    }
+    else if (descriptorType.compare("FREAK") == 0)
+    {
+        extractor = cv::xfeatures2d::FREAK::create();
+    }
+    else if (descriptorType.compare("AKAZE") == 0)
+    {
+        extractor = cv::AKAZE::create();
+    }
+    else if (descriptorType.compare("SIFT") == 0)
+    {
+        extractor = cv::SIFT::create();
+    }
     else
     {
-
-        //...
+        throw "Unsupported descriptor!";
     }
-
     // perform feature description
     double t = (double)cv::getTickCount();
     extractor->compute(img, keypoints, descriptors);
@@ -65,31 +83,31 @@ void detect_keypoints(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std::s
 {
     if (detector_type.compare("SHITOMASI") == 0)
     {
-        detKeypointsShiTomasi(keypoints, img, bVis);
+        detect_keypoints_ShiTomasi(keypoints, img, bVis);
     }
     else if (detector_type.compare("HARRIS") == 0)
     {
-        detKeypointsHarris(keypoints, img, bVis);
+        detect_keypoints_Harris(keypoints, img, bVis);
     }
     else if (detector_type.compare("FAST") == 0)
     {
-        detKeypointsFast(keypoints, img, bVis);
+        detect_keypoints_Fast(keypoints, img, bVis);
     }
     else if (detector_type.compare("BRISK") == 0)
     {
-        detKeypointsBrisk(keypoints, img, bVis);
+        detect_keypoints_Brisk(keypoints, img, bVis);
     }
     else if (detector_type.compare("ORB") == 0)
     {
-        detKeypointsOrb(keypoints, img, bVis);
+        detect_keypoints_Orb(keypoints, img, bVis);
     }
     else if (detector_type.compare("AKAZE") == 0)
     {
-        detKeypointsAkaze(keypoints, img, bVis);
+        detect_keypoints_Akaze(keypoints, img, bVis);
     }
     else if (detector_type.compare("SIFT") == 0)
     {
-        detKeypointsSift(keypoints, img, bVis);
+        detect_keypoints_Sift(keypoints, img, bVis);
     }
     else
     {
@@ -98,7 +116,7 @@ void detect_keypoints(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std::s
 }
 
 // Detect keypoints in image using the traditional Shi-Thomasi detector
-static void detKeypointsShiTomasi(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+static void detect_keypoints_ShiTomasi(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
     // compute detector parameters based on image size
     int blockSize = 4;       //  size of an average block for computing a derivative covariation matrix over each pixel neighborhood
@@ -138,7 +156,7 @@ static void detKeypointsShiTomasi(vector<cv::KeyPoint> &keypoints, cv::Mat &img,
     }
 }
 
-static void detKeypointsHarris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+static void detect_keypoints_Harris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
     // Detector parameters
     int blockSize = 2;     // for every pixel, a blockSize × blockSize neighborhood is considered
@@ -208,7 +226,7 @@ static void detKeypointsHarris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &im
         cv::waitKey(0);
     }
 }
-static void detKeypointsFast(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+static void detect_keypoints_Fast(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
     // difference between intensity of the central pixel and pixels of a circle around this pixel
     int threshold = 30;
@@ -235,7 +253,7 @@ static void detKeypointsFast(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img,
         cv::waitKey(0);
     }
 }
-static void detKeypointsBrisk(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+static void detect_keypoints_Brisk(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
     int threshold = 60;
     int octaves = 4; // (pyramid layer) from which the keypoint has been extracted
@@ -259,7 +277,7 @@ static void detKeypointsBrisk(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img
         cv::waitKey(0);
     }
 }
-static void detKeypointsOrb(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+static void detect_keypoints_Orb(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
     cv::Ptr<cv::ORB> orb_detector = cv::ORB::create();
 
@@ -278,7 +296,7 @@ static void detKeypointsOrb(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, 
         cv::waitKey(0);
     }
 }
-static void detKeypointsAkaze(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+static void detect_keypoints_Akaze(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
     cv::Ptr<cv::AKAZE> akaze_detector = cv::AKAZE::create();
 
@@ -297,7 +315,7 @@ static void detKeypointsAkaze(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img
         cv::waitKey(0);
     }
 }
-static void detKeypointsSift(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+static void detect_keypoints_Sift(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
     cv::Ptr<cv::SIFT> sift_detector = cv::SIFT::create();
 
