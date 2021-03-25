@@ -73,7 +73,7 @@ int main(int argc, const char *argv[])
          */
 
         vector<cv::KeyPoint> keypoints;
-        string detectorType = "AKAZE";
+        string detectorType = "SIFT";
 
         try
         {
@@ -124,7 +124,7 @@ int main(int argc, const char *argv[])
         */
 
         cv::Mat descriptors;
-        string descriptorType = "AKAZE"; // BRIEF, ORB, FREAK, AKAZE, SIFT
+        string descriptorType = "SIFT"; // BRIEF, ORB, FREAK, AKAZE, SIFT
         try
         {
             keypoints_descriptor(frame.keypoints, frame.cameraImg, descriptors, descriptorType);

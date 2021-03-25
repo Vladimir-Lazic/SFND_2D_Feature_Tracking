@@ -30,14 +30,17 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
         cout << "FLANN matching";
     }
 
+    double minDescDistRatio = 0.8;
     // perform matching task
     if (selectorType.compare("SEL_NN") == 0)
     { // nearest neighbor (best match)
 
+        vector<cv::DMatch> nn_matches;
         double t = (double)cv::getTickCount();
-        matcher->match(descSource, descRef, matches); // Finds the best match for each descriptor in desc1
+        matcher->match(descSource, descRef, nn_matches); // Finds the best match for each descriptor in desc1
         t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
-        cout << " NN with n=" << matches.size() << " matches in " << 1000 * t / 1.0 << " ms" << endl;
+        cout << " NN with n=" << nn_matches.size() << " matches in " << 1000 * t / 1.0 << " ms" << endl;
+        matches = nn_matches;
     }
     else if (selectorType.compare("SEL_KNN") == 0)
     {
@@ -48,10 +51,8 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
         t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
         cout << " KNN with n=" << knn_matches.size() << " matches in " << 1000 * t / 1.0 << " ms" << endl;
 
-        double minDescDistRatio = 0.8;
         for (auto it = knn_matches.begin(); it != knn_matches.end(); ++it)
         {
-
             if ((*it)[0].distance < minDescDistRatio * (*it)[1].distance)
             {
                 matches.push_back((*it)[0]);
