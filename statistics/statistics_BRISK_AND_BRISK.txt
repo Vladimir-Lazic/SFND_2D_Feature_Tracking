@@ -1,0 +1,60 @@
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR BRISK
+BRISK detector on image : 0; No. of keypoints: 160
+BRISK detector and BRISK descriptor on image : 0; Processing time: 68.3891 ms
+BRISK detector and BRISK descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR BRISK
+BRISK detector on image : 1; No. of keypoints: 164
+BRISK detector and BRISK descriptor on image : 1; Processing time: 66.8989 ms
+BRISK detector and BRISK descriptor on image : 1; No. of keypoint mathces: 104
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR BRISK
+BRISK detector on image : 2; No. of keypoints: 158
+BRISK detector and BRISK descriptor on image : 2; Processing time: 65.964 ms
+BRISK detector and BRISK descriptor on image : 2; No. of keypoint mathces: 113
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR BRISK
+BRISK detector on image : 3; No. of keypoints: 162
+BRISK detector and BRISK descriptor on image : 3; Processing time: 62.3539 ms
+BRISK detector and BRISK descriptor on image : 3; No. of keypoint mathces: 104
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR BRISK
+BRISK detector on image : 4; No. of keypoints: 159
+BRISK detector and BRISK descriptor on image : 4; Processing time: 61.7264 ms
+BRISK detector and BRISK descriptor on image : 4; No. of keypoint mathces: 97
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR BRISK
+BRISK detector on image : 5; No. of keypoints: 156
+BRISK detector and BRISK descriptor on image : 5; Processing time: 64.2464 ms
+BRISK detector and BRISK descriptor on image : 5; No. of keypoint mathces: 107
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR BRISK
+BRISK detector on image : 6; No. of keypoints: 161
+BRISK detector and BRISK descriptor on image : 6; Processing time: 61.1337 ms
+BRISK detector and BRISK descriptor on image : 6; No. of keypoint mathces: 115
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR BRISK
+BRISK detector on image : 7; No. of keypoints: 155
+BRISK detector and BRISK descriptor on image : 7; Processing time: 61.2833 ms
+BRISK detector and BRISK descriptor on image : 7; No. of keypoint mathces: 101
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR BRISK
+BRISK detector on image : 8; No. of keypoints: 160
+BRISK detector and BRISK descriptor on image : 8; Processing time: 61.6408 ms
+BRISK detector and BRISK descriptor on image : 8; No. of keypoint mathces: 110
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR BRISK
+BRISK detector on image : 9; No. of keypoints: 142
+BRISK detector and BRISK descriptor on image : 9; Processing time: 64.1856 ms
+BRISK detector and BRISK descriptor on image : 9; No. of keypoint mathces: 107
+

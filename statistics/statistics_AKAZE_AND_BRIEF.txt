@@ -1,0 +1,60 @@
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRIEF
+AKAZE detector on image : 0; No. of keypoints: 166
+AKAZE detector and BRIEF descriptor on image : 0; Processing time: 48.0894 ms
+AKAZE detector and BRIEF descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRIEF
+AKAZE detector on image : 1; No. of keypoints: 157
+AKAZE detector and BRIEF descriptor on image : 1; Processing time: 43.6086 ms
+AKAZE detector and BRIEF descriptor on image : 1; No. of keypoint mathces: 137
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRIEF
+AKAZE detector on image : 2; No. of keypoints: 161
+AKAZE detector and BRIEF descriptor on image : 2; Processing time: 48.6165 ms
+AKAZE detector and BRIEF descriptor on image : 2; No. of keypoint mathces: 134
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRIEF
+AKAZE detector on image : 3; No. of keypoints: 155
+AKAZE detector and BRIEF descriptor on image : 3; Processing time: 43.3645 ms
+AKAZE detector and BRIEF descriptor on image : 3; No. of keypoint mathces: 134
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRIEF
+AKAZE detector on image : 4; No. of keypoints: 163
+AKAZE detector and BRIEF descriptor on image : 4; Processing time: 44.3166 ms
+AKAZE detector and BRIEF descriptor on image : 4; No. of keypoint mathces: 135
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRIEF
+AKAZE detector on image : 5; No. of keypoints: 164
+AKAZE detector and BRIEF descriptor on image : 5; Processing time: 48.5415 ms
+AKAZE detector and BRIEF descriptor on image : 5; No. of keypoint mathces: 135
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRIEF
+AKAZE detector on image : 6; No. of keypoints: 173
+AKAZE detector and BRIEF descriptor on image : 6; Processing time: 46.8622 ms
+AKAZE detector and BRIEF descriptor on image : 6; No. of keypoint mathces: 151
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRIEF
+AKAZE detector on image : 7; No. of keypoints: 175
+AKAZE detector and BRIEF descriptor on image : 7; Processing time: 45.6975 ms
+AKAZE detector and BRIEF descriptor on image : 7; No. of keypoint mathces: 156
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRIEF
+AKAZE detector on image : 8; No. of keypoints: 177
+AKAZE detector and BRIEF descriptor on image : 8; Processing time: 48.1319 ms
+AKAZE detector and BRIEF descriptor on image : 8; No. of keypoint mathces: 147
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRIEF
+AKAZE detector on image : 9; No. of keypoints: 179
+AKAZE detector and BRIEF descriptor on image : 9; Processing time: 44.3925 ms
+AKAZE detector and BRIEF descriptor on image : 9; No. of keypoint mathces: 155
+

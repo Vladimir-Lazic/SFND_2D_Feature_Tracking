@@ -13,6 +13,12 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
 
     if (matcherType.compare("MAT_BF") == 0)
     {
+        if (descSource.type() != CV_8U)
+        {
+            descSource.convertTo(descSource, CV_8U);
+            descRef.convertTo(descRef, CV_8U);
+        }
+
         int normType = cv::NORM_HAMMING;
         matcher = cv::BFMatcher::create(normType, crossCheck);
         cout << "BF matching";
@@ -66,7 +72,7 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
 void keypoints_descriptor(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descriptors, string descriptorType)
 {
     // select appropriate descriptor
-    // BRIEF, ORB, FREAK, AKAZE and SIFT
+    // BRISK, BRIEF, ORB, FREAK, AKAZE and SIFT
     cv::Ptr<cv::DescriptorExtractor> extractor;
     if (descriptorType.compare("BRISK") == 0)
     {

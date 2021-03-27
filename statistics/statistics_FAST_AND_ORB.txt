@@ -1,0 +1,60 @@
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR ORB
+FAST detector on image : 0; No. of keypoints: 149
+FAST detector and ORB descriptor on image : 0; Processing time: 5.31914 ms
+FAST detector and ORB descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR ORB
+FAST detector on image : 1; No. of keypoints: 152
+FAST detector and ORB descriptor on image : 1; Processing time: 4.17274 ms
+FAST detector and ORB descriptor on image : 1; No. of keypoint mathces: 117
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR ORB
+FAST detector on image : 2; No. of keypoints: 150
+FAST detector and ORB descriptor on image : 2; Processing time: 7.14914 ms
+FAST detector and ORB descriptor on image : 2; No. of keypoint mathces: 122
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR ORB
+FAST detector on image : 3; No. of keypoints: 155
+FAST detector and ORB descriptor on image : 3; Processing time: 3.47204 ms
+FAST detector and ORB descriptor on image : 3; No. of keypoint mathces: 121
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR ORB
+FAST detector on image : 4; No. of keypoints: 149
+FAST detector and ORB descriptor on image : 4; Processing time: 6.26877 ms
+FAST detector and ORB descriptor on image : 4; No. of keypoint mathces: 117
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR ORB
+FAST detector on image : 5; No. of keypoints: 149
+FAST detector and ORB descriptor on image : 5; Processing time: 3.37086 ms
+FAST detector and ORB descriptor on image : 5; No. of keypoint mathces: 117
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR ORB
+FAST detector on image : 6; No. of keypoints: 156
+FAST detector and ORB descriptor on image : 6; Processing time: 3.36812 ms
+FAST detector and ORB descriptor on image : 6; No. of keypoint mathces: 127
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR ORB
+FAST detector on image : 7; No. of keypoints: 150
+FAST detector and ORB descriptor on image : 7; Processing time: 3.41104 ms
+FAST detector and ORB descriptor on image : 7; No. of keypoint mathces: 118
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR ORB
+FAST detector on image : 8; No. of keypoints: 138
+FAST detector and ORB descriptor on image : 8; Processing time: 3.34289 ms
+FAST detector and ORB descriptor on image : 8; No. of keypoint mathces: 113
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR ORB
+FAST detector on image : 9; No. of keypoints: 143
+FAST detector and ORB descriptor on image : 9; Processing time: 3.35875 ms
+FAST detector and ORB descriptor on image : 9; No. of keypoint mathces: 116
+

@@ -1,0 +1,60 @@
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR BRIEF
+SIFT detector on image : 0; No. of keypoints: 138
+SIFT detector and BRIEF descriptor on image : 0; Processing time: 77.7918 ms
+SIFT detector and BRIEF descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR BRIEF
+SIFT detector on image : 1; No. of keypoints: 132
+SIFT detector and BRIEF descriptor on image : 1; Processing time: 74.2442 ms
+SIFT detector and BRIEF descriptor on image : 1; No. of keypoint mathces: 85
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR BRIEF
+SIFT detector on image : 2; No. of keypoints: 124
+SIFT detector and BRIEF descriptor on image : 2; Processing time: 71.6468 ms
+SIFT detector and BRIEF descriptor on image : 2; No. of keypoint mathces: 74
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR BRIEF
+SIFT detector on image : 3; No. of keypoints: 137
+SIFT detector and BRIEF descriptor on image : 3; Processing time: 65.9444 ms
+SIFT detector and BRIEF descriptor on image : 3; No. of keypoint mathces: 83
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR BRIEF
+SIFT detector on image : 4; No. of keypoints: 134
+SIFT detector and BRIEF descriptor on image : 4; Processing time: 71.9906 ms
+SIFT detector and BRIEF descriptor on image : 4; No. of keypoint mathces: 79
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR BRIEF
+SIFT detector on image : 5; No. of keypoints: 140
+SIFT detector and BRIEF descriptor on image : 5; Processing time: 64.0796 ms
+SIFT detector and BRIEF descriptor on image : 5; No. of keypoint mathces: 79
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR BRIEF
+SIFT detector on image : 6; No. of keypoints: 137
+SIFT detector and BRIEF descriptor on image : 6; Processing time: 63.1679 ms
+SIFT detector and BRIEF descriptor on image : 6; No. of keypoint mathces: 76
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR BRIEF
+SIFT detector on image : 7; No. of keypoints: 148
+SIFT detector and BRIEF descriptor on image : 7; Processing time: 65.514 ms
+SIFT detector and BRIEF descriptor on image : 7; No. of keypoint mathces: 70
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR BRIEF
+SIFT detector on image : 8; No. of keypoints: 159
+SIFT detector and BRIEF descriptor on image : 8; Processing time: 64.4568 ms
+SIFT detector and BRIEF descriptor on image : 8; No. of keypoint mathces: 83
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR BRIEF
+SIFT detector on image : 9; No. of keypoints: 137
+SIFT detector and BRIEF descriptor on image : 9; Processing time: 66.549 ms
+SIFT detector and BRIEF descriptor on image : 9; No. of keypoint mathces: 74
+

@@ -1,0 +1,60 @@
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR FREAK
+SIFT detector on image : 0; No. of keypoints: 138
+SIFT detector and FREAK descriptor on image : 0; Processing time: 96.7481 ms
+SIFT detector and FREAK descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR FREAK
+SIFT detector on image : 1; No. of keypoints: 132
+SIFT detector and FREAK descriptor on image : 1; Processing time: 88.4395 ms
+SIFT detector and FREAK descriptor on image : 1; No. of keypoint mathces: 66
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR FREAK
+SIFT detector on image : 2; No. of keypoints: 124
+SIFT detector and FREAK descriptor on image : 2; Processing time: 94.5624 ms
+SIFT detector and FREAK descriptor on image : 2; No. of keypoint mathces: 64
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR FREAK
+SIFT detector on image : 3; No. of keypoints: 137
+SIFT detector and FREAK descriptor on image : 3; Processing time: 108.475 ms
+SIFT detector and FREAK descriptor on image : 3; No. of keypoint mathces: 73
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR FREAK
+SIFT detector on image : 4; No. of keypoints: 134
+SIFT detector and FREAK descriptor on image : 4; Processing time: 97.7894 ms
+SIFT detector and FREAK descriptor on image : 4; No. of keypoint mathces: 62
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR FREAK
+SIFT detector on image : 5; No. of keypoints: 140
+SIFT detector and FREAK descriptor on image : 5; Processing time: 104.763 ms
+SIFT detector and FREAK descriptor on image : 5; No. of keypoint mathces: 71
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR FREAK
+SIFT detector on image : 6; No. of keypoints: 137
+SIFT detector and FREAK descriptor on image : 6; Processing time: 94.8748 ms
+SIFT detector and FREAK descriptor on image : 6; No. of keypoint mathces: 58
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR FREAK
+SIFT detector on image : 7; No. of keypoints: 148
+SIFT detector and FREAK descriptor on image : 7; Processing time: 92.0261 ms
+SIFT detector and FREAK descriptor on image : 7; No. of keypoint mathces: 57
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR FREAK
+SIFT detector on image : 8; No. of keypoints: 159
+SIFT detector and FREAK descriptor on image : 8; Processing time: 90.1751 ms
+SIFT detector and FREAK descriptor on image : 8; No. of keypoint mathces: 76
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR FREAK
+SIFT detector on image : 9; No. of keypoints: 137
+SIFT detector and FREAK descriptor on image : 9; Processing time: 112.669 ms
+SIFT detector and FREAK descriptor on image : 9; No. of keypoint mathces: 66
+

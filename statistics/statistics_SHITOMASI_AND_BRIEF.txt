@@ -1,0 +1,60 @@
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRIEF
+SHITOMASI detector on image : 0; No. of keypoints: 125
+SHITOMASI detector and BRIEF descriptor on image : 0; Processing time: 11.0169 ms
+SHITOMASI detector and BRIEF descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRIEF
+SHITOMASI detector on image : 1; No. of keypoints: 118
+SHITOMASI detector and BRIEF descriptor on image : 1; Processing time: 11.257 ms
+SHITOMASI detector and BRIEF descriptor on image : 1; No. of keypoint mathces: 103
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRIEF
+SHITOMASI detector on image : 2; No. of keypoints: 123
+SHITOMASI detector and BRIEF descriptor on image : 2; Processing time: 10.737 ms
+SHITOMASI detector and BRIEF descriptor on image : 2; No. of keypoint mathces: 108
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRIEF
+SHITOMASI detector on image : 3; No. of keypoints: 120
+SHITOMASI detector and BRIEF descriptor on image : 3; Processing time: 8.42379 ms
+SHITOMASI detector and BRIEF descriptor on image : 3; No. of keypoint mathces: 107
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRIEF
+SHITOMASI detector on image : 4; No. of keypoints: 120
+SHITOMASI detector and BRIEF descriptor on image : 4; Processing time: 9.7511 ms
+SHITOMASI detector and BRIEF descriptor on image : 4; No. of keypoint mathces: 105
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRIEF
+SHITOMASI detector on image : 5; No. of keypoints: 113
+SHITOMASI detector and BRIEF descriptor on image : 5; Processing time: 10.0467 ms
+SHITOMASI detector and BRIEF descriptor on image : 5; No. of keypoint mathces: 100
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRIEF
+SHITOMASI detector on image : 6; No. of keypoints: 114
+SHITOMASI detector and BRIEF descriptor on image : 6; Processing time: 9.89091 ms
+SHITOMASI detector and BRIEF descriptor on image : 6; No. of keypoint mathces: 102
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRIEF
+SHITOMASI detector on image : 7; No. of keypoints: 123
+SHITOMASI detector and BRIEF descriptor on image : 7; Processing time: 9.79552 ms
+SHITOMASI detector and BRIEF descriptor on image : 7; No. of keypoint mathces: 104
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRIEF
+SHITOMASI detector on image : 8; No. of keypoints: 111
+SHITOMASI detector and BRIEF descriptor on image : 8; Processing time: 10.6376 ms
+SHITOMASI detector and BRIEF descriptor on image : 8; No. of keypoint mathces: 101
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRIEF
+SHITOMASI detector on image : 9; No. of keypoints: 112
+SHITOMASI detector and BRIEF descriptor on image : 9; Processing time: 9.85343 ms
+SHITOMASI detector and BRIEF descriptor on image : 9; No. of keypoint mathces: 102
+

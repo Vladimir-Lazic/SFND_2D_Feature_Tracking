@@ -1,0 +1,60 @@
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR FREAK
+HARRIS detector on image : 0; No. of keypoints: 17
+HARRIS detector and FREAK descriptor on image : 0; Processing time: 35.2802 ms
+HARRIS detector and FREAK descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR FREAK
+HARRIS detector on image : 1; No. of keypoints: 14
+HARRIS detector and FREAK descriptor on image : 1; Processing time: 28.8509 ms
+HARRIS detector and FREAK descriptor on image : 1; No. of keypoint mathces: 12
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR FREAK
+HARRIS detector on image : 2; No. of keypoints: 18
+HARRIS detector and FREAK descriptor on image : 2; Processing time: 29.777 ms
+HARRIS detector and FREAK descriptor on image : 2; No. of keypoint mathces: 14
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR FREAK
+HARRIS detector on image : 3; No. of keypoints: 21
+HARRIS detector and FREAK descriptor on image : 3; Processing time: 51.7668 ms
+HARRIS detector and FREAK descriptor on image : 3; No. of keypoint mathces: 15
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR FREAK
+HARRIS detector on image : 4; No. of keypoints: 26
+HARRIS detector and FREAK descriptor on image : 4; Processing time: 26.3451 ms
+HARRIS detector and FREAK descriptor on image : 4; No. of keypoint mathces: 17
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR FREAK
+HARRIS detector on image : 5; No. of keypoints: 43
+HARRIS detector and FREAK descriptor on image : 5; Processing time: 34.4124 ms
+HARRIS detector and FREAK descriptor on image : 5; No. of keypoint mathces: 25
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR FREAK
+HARRIS detector on image : 6; No. of keypoints: 18
+HARRIS detector and FREAK descriptor on image : 6; Processing time: 26.0006 ms
+HARRIS detector and FREAK descriptor on image : 6; No. of keypoint mathces: 15
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR FREAK
+HARRIS detector on image : 7; No. of keypoints: 31
+HARRIS detector and FREAK descriptor on image : 7; Processing time: 26.7961 ms
+HARRIS detector and FREAK descriptor on image : 7; No. of keypoint mathces: 19
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR FREAK
+HARRIS detector on image : 8; No. of keypoints: 26
+HARRIS detector and FREAK descriptor on image : 8; Processing time: 26.8008 ms
+HARRIS detector and FREAK descriptor on image : 8; No. of keypoint mathces: 17
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR FREAK
+HARRIS detector on image : 9; No. of keypoints: 34
+HARRIS detector and FREAK descriptor on image : 9; Processing time: 29.3344 ms
+HARRIS detector and FREAK descriptor on image : 9; No. of keypoint mathces: 22
+

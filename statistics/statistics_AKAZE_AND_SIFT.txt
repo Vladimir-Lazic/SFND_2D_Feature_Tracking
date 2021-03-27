@@ -1,0 +1,60 @@
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR SIFT
+AKAZE detector on image : 0; No. of keypoints: 166
+AKAZE detector and SIFT descriptor on image : 0; Processing time: 59.1283 ms
+AKAZE detector and SIFT descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR SIFT
+AKAZE detector on image : 1; No. of keypoints: 157
+AKAZE detector and SIFT descriptor on image : 1; Processing time: 60.7883 ms
+AKAZE detector and SIFT descriptor on image : 1; No. of keypoint mathces: 90
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR SIFT
+AKAZE detector on image : 2; No. of keypoints: 161
+AKAZE detector and SIFT descriptor on image : 2; Processing time: 79.4083 ms
+AKAZE detector and SIFT descriptor on image : 2; No. of keypoint mathces: 92
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR SIFT
+AKAZE detector on image : 3; No. of keypoints: 155
+AKAZE detector and SIFT descriptor on image : 3; Processing time: 80.9437 ms
+AKAZE detector and SIFT descriptor on image : 3; No. of keypoint mathces: 90
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR SIFT
+AKAZE detector on image : 4; No. of keypoints: 163
+AKAZE detector and SIFT descriptor on image : 4; Processing time: 82.731 ms
+AKAZE detector and SIFT descriptor on image : 4; No. of keypoint mathces: 90
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR SIFT
+AKAZE detector on image : 5; No. of keypoints: 164
+AKAZE detector and SIFT descriptor on image : 5; Processing time: 61.9695 ms
+AKAZE detector and SIFT descriptor on image : 5; No. of keypoint mathces: 86
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR SIFT
+AKAZE detector on image : 6; No. of keypoints: 173
+AKAZE detector and SIFT descriptor on image : 6; Processing time: 59.073 ms
+AKAZE detector and SIFT descriptor on image : 6; No. of keypoint mathces: 99
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR SIFT
+AKAZE detector on image : 7; No. of keypoints: 175
+AKAZE detector and SIFT descriptor on image : 7; Processing time: 62.5593 ms
+AKAZE detector and SIFT descriptor on image : 7; No. of keypoint mathces: 104
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR SIFT
+AKAZE detector on image : 8; No. of keypoints: 177
+AKAZE detector and SIFT descriptor on image : 8; Processing time: 60.5067 ms
+AKAZE detector and SIFT descriptor on image : 8; No. of keypoint mathces: 115
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR SIFT
+AKAZE detector on image : 9; No. of keypoints: 179
+AKAZE detector and SIFT descriptor on image : 9; Processing time: 60.1114 ms
+AKAZE detector and SIFT descriptor on image : 9; No. of keypoint mathces: 110
+

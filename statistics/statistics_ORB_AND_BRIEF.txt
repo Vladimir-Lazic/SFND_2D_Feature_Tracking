@@ -1,0 +1,60 @@
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRIEF
+ORB detector on image : 0; No. of keypoints: 92
+ORB detector and BRIEF descriptor on image : 0; Processing time: 113.781 ms
+ORB detector and BRIEF descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRIEF
+ORB detector on image : 1; No. of keypoints: 102
+ORB detector and BRIEF descriptor on image : 1; Processing time: 6.25485 ms
+ORB detector and BRIEF descriptor on image : 1; No. of keypoint mathces: 48
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRIEF
+ORB detector on image : 2; No. of keypoints: 106
+ORB detector and BRIEF descriptor on image : 2; Processing time: 6.83858 ms
+ORB detector and BRIEF descriptor on image : 2; No. of keypoint mathces: 58
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRIEF
+ORB detector on image : 3; No. of keypoints: 113
+ORB detector and BRIEF descriptor on image : 3; Processing time: 5.59526 ms
+ORB detector and BRIEF descriptor on image : 3; No. of keypoint mathces: 51
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRIEF
+ORB detector on image : 4; No. of keypoints: 109
+ORB detector and BRIEF descriptor on image : 4; Processing time: 5.52951 ms
+ORB detector and BRIEF descriptor on image : 4; No. of keypoint mathces: 57
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRIEF
+ORB detector on image : 5; No. of keypoints: 125
+ORB detector and BRIEF descriptor on image : 5; Processing time: 5.76161 ms
+ORB detector and BRIEF descriptor on image : 5; No. of keypoint mathces: 72
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRIEF
+ORB detector on image : 6; No. of keypoints: 130
+ORB detector and BRIEF descriptor on image : 6; Processing time: 5.59057 ms
+ORB detector and BRIEF descriptor on image : 6; No. of keypoint mathces: 80
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRIEF
+ORB detector on image : 7; No. of keypoints: 129
+ORB detector and BRIEF descriptor on image : 7; Processing time: 5.69259 ms
+ORB detector and BRIEF descriptor on image : 7; No. of keypoint mathces: 68
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRIEF
+ORB detector on image : 8; No. of keypoints: 127
+ORB detector and BRIEF descriptor on image : 8; Processing time: 6.00432 ms
+ORB detector and BRIEF descriptor on image : 8; No. of keypoint mathces: 65
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRIEF
+ORB detector on image : 9; No. of keypoints: 128
+ORB detector and BRIEF descriptor on image : 9; Processing time: 5.87977 ms
+ORB detector and BRIEF descriptor on image : 9; No. of keypoint mathces: 72
+

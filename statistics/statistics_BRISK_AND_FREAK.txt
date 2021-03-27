@@ -1,0 +1,60 @@
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR FREAK
+BRISK detector on image : 0; No. of keypoints: 160
+BRISK detector and FREAK descriptor on image : 0; Processing time: 66.2488 ms
+BRISK detector and FREAK descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR FREAK
+BRISK detector on image : 1; No. of keypoints: 164
+BRISK detector and FREAK descriptor on image : 1; Processing time: 64.4324 ms
+BRISK detector and FREAK descriptor on image : 1; No. of keypoint mathces: 108
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR FREAK
+BRISK detector on image : 2; No. of keypoints: 158
+BRISK detector and FREAK descriptor on image : 2; Processing time: 61.4998 ms
+BRISK detector and FREAK descriptor on image : 2; No. of keypoint mathces: 103
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR FREAK
+BRISK detector on image : 3; No. of keypoints: 162
+BRISK detector and FREAK descriptor on image : 3; Processing time: 82.7711 ms
+BRISK detector and FREAK descriptor on image : 3; No. of keypoint mathces: 111
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR FREAK
+BRISK detector on image : 4; No. of keypoints: 159
+BRISK detector and FREAK descriptor on image : 4; Processing time: 63.8849 ms
+BRISK detector and FREAK descriptor on image : 4; No. of keypoint mathces: 104
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR FREAK
+BRISK detector on image : 5; No. of keypoints: 156
+BRISK detector and FREAK descriptor on image : 5; Processing time: 58.7859 ms
+BRISK detector and FREAK descriptor on image : 5; No. of keypoint mathces: 102
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR FREAK
+BRISK detector on image : 6; No. of keypoints: 161
+BRISK detector and FREAK descriptor on image : 6; Processing time: 58.8844 ms
+BRISK detector and FREAK descriptor on image : 6; No. of keypoint mathces: 110
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR FREAK
+BRISK detector on image : 7; No. of keypoints: 155
+BRISK detector and FREAK descriptor on image : 7; Processing time: 59.2562 ms
+BRISK detector and FREAK descriptor on image : 7; No. of keypoint mathces: 100
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR FREAK
+BRISK detector on image : 8; No. of keypoints: 160
+BRISK detector and FREAK descriptor on image : 8; Processing time: 59.638 ms
+BRISK detector and FREAK descriptor on image : 8; No. of keypoint mathces: 104
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR FREAK
+BRISK detector on image : 9; No. of keypoints: 142
+BRISK detector and FREAK descriptor on image : 9; Processing time: 60.9671 ms
+BRISK detector and FREAK descriptor on image : 9; No. of keypoint mathces: 93
+

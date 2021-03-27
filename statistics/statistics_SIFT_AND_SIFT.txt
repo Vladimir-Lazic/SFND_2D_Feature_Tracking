@@ -1,0 +1,60 @@
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR SIFT
+SIFT detector on image : 0; No. of keypoints: 138
+SIFT detector and SIFT descriptor on image : 0; Processing time: 126.414 ms
+SIFT detector and SIFT descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR SIFT
+SIFT detector on image : 1; No. of keypoints: 132
+SIFT detector and SIFT descriptor on image : 1; Processing time: 116.6 ms
+SIFT detector and SIFT descriptor on image : 1; No. of keypoint mathces: 45
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR SIFT
+SIFT detector on image : 2; No. of keypoints: 124
+SIFT detector and SIFT descriptor on image : 2; Processing time: 117.131 ms
+SIFT detector and SIFT descriptor on image : 2; No. of keypoint mathces: 46
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR SIFT
+SIFT detector on image : 3; No. of keypoints: 137
+SIFT detector and SIFT descriptor on image : 3; Processing time: 113.978 ms
+SIFT detector and SIFT descriptor on image : 3; No. of keypoint mathces: 51
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR SIFT
+SIFT detector on image : 4; No. of keypoints: 134
+SIFT detector and SIFT descriptor on image : 4; Processing time: 130.228 ms
+SIFT detector and SIFT descriptor on image : 4; No. of keypoint mathces: 57
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR SIFT
+SIFT detector on image : 5; No. of keypoints: 140
+SIFT detector and SIFT descriptor on image : 5; Processing time: 112.07 ms
+SIFT detector and SIFT descriptor on image : 5; No. of keypoint mathces: 54
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR SIFT
+SIFT detector on image : 6; No. of keypoints: 137
+SIFT detector and SIFT descriptor on image : 6; Processing time: 109.632 ms
+SIFT detector and SIFT descriptor on image : 6; No. of keypoint mathces: 44
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR SIFT
+SIFT detector on image : 7; No. of keypoints: 148
+SIFT detector and SIFT descriptor on image : 7; Processing time: 138.461 ms
+SIFT detector and SIFT descriptor on image : 7; No. of keypoint mathces: 41
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR SIFT
+SIFT detector on image : 8; No. of keypoints: 159
+SIFT detector and SIFT descriptor on image : 8; Processing time: 108.358 ms
+SIFT detector and SIFT descriptor on image : 8; No. of keypoint mathces: 68
+
+
+STATISTICS: DETECTOR SIFT and DESCRIPTOR SIFT
+SIFT detector on image : 9; No. of keypoints: 137
+SIFT detector and SIFT descriptor on image : 9; Processing time: 111.209 ms
+SIFT detector and SIFT descriptor on image : 9; No. of keypoint mathces: 58
+

@@ -72,8 +72,9 @@ int main(int argc, const char *argv[])
             - only keep keypoints on the preceding vehicle
          */
 
+        double t = (double)cv::getTickCount();
         vector<cv::KeyPoint> keypoints;
-        string detectorType = "SIFT";
+        string detectorType = "SIFT"; // SHITOMASI, HARRIS, FAST, BRISK, ORB, AKAZE and SIFT
 
         try
         {
@@ -124,7 +125,7 @@ int main(int argc, const char *argv[])
         */
 
         cv::Mat descriptors;
-        string descriptorType = "SIFT"; // BRIEF, ORB, FREAK, AKAZE, SIFT
+        string descriptorType = "SIFT"; // BRISK, BRIEF, ORB, FREAK, AKAZE and SIFT
         try
         {
             keypoints_descriptor(frame.keypoints, frame.cameraImg, descriptors, descriptorType);
@@ -141,6 +142,9 @@ int main(int argc, const char *argv[])
 
         cout << "#3 : EXTRACT DESCRIPTORS done" << endl;
 
+        t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
+
+        int number_of_keypoints_matches = 0;
         if (img_buffer.size() > 1) // wait until at least two images have been processed
         {
             auto current_frame = img_buffer.get();
@@ -156,7 +160,7 @@ int main(int argc, const char *argv[])
             /* MATCH KEYPOINT DESCRIPTORS */
 
             vector<cv::DMatch> matches;
-            string matcherType = "MAT_FLANN";     // MAT_BF, MAT_FLANN
+            string matcherType = "MAT_BF";        // MAT_BF, MAT_FLANN
             string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
             string selectorType = "SEL_KNN";      // SEL_NN, SEL_KNN
 
@@ -169,6 +173,7 @@ int main(int argc, const char *argv[])
                              matches, descriptorType, matcherType, selectorType);
 
             //// EOF STUDENT ASSIGNMENT
+            number_of_keypoints_matches = matches.size();
 
             // store matches in current data frame
             current_frame->kptMatches = matches;
@@ -193,6 +198,24 @@ int main(int argc, const char *argv[])
                 cv::waitKey(0); // wait for key to be pressed
             }
             bVis = false;
+        }
+
+        bool statistics = true;
+        if (statistics)
+        {
+            ofstream statistics_file;
+            string path_to_statistics_file = "../statistics/statistics_" + detectorType + "_AND_" + descriptorType + ".txt";
+            statistics_file.open(path_to_statistics_file, std::ios_base::app);
+
+            statistics_file << "\nSTATISTICS: DETECTOR " << detectorType << " and DESCRIPTOR " << descriptorType << endl;
+
+            statistics_file << detectorType << " detector on image : " << imgStartIndex + imgIndex << "; No. of keypoints: " << keypoints.size() << endl;
+
+            statistics_file << detectorType << " detector and " << descriptorType << " descriptor on image : " << imgStartIndex + imgIndex << "; Processing time: " << 1000 * t / 1.0 << " ms" << endl;
+
+            statistics_file << detectorType << " detector and " << descriptorType << " descriptor on image : " << imgStartIndex + imgIndex << "; No. of keypoint mathces: " << number_of_keypoints_matches << endl;
+
+            statistics_file << endl;
         }
 
     } // eof loop over all images
