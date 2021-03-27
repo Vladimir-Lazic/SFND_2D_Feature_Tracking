@@ -53,7 +53,7 @@ public:
         _full = false;
     }
 
-    bool is_empty() const { return (_full && (_head == _tail)); }
+    bool is_empty() const { return (!_full && (_head == _tail)); }
 
     bool is_full() const { return _full; }
 

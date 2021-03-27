@@ -37,7 +37,7 @@ int main(int argc, const char *argv[])
     int imgFillWidth = 4;  // no. of digits which make up the file index (e.g. img-0001.png)
 
     // misc
-    int dataBufferSize = 3; // no. of images which are held in memory (ring buffer) at the same time
+    int dataBufferSize = 2; // no. of images which are held in memory (ring buffer) at the same time
     ring_buffer<DataFrame> img_buffer(dataBufferSize);
     bool bVis = false; // visualize results
 
@@ -77,7 +77,7 @@ int main(int argc, const char *argv[])
 
         try
         {
-            detect_keypoints(keypoints, imgGray, detectorType, true);
+            detect_keypoints(keypoints, imgGray, detectorType, false);
         }
         catch (const char *msg)
         {
@@ -135,7 +135,6 @@ int main(int argc, const char *argv[])
             return -1;
         }
 
-
         // push descriptors for current frame to end of data buffer
         frame.descriptors = descriptors;
         img_buffer.insert(frame);
@@ -148,12 +147,18 @@ int main(int argc, const char *argv[])
             img_buffer.pop();
             auto next_frame = img_buffer.get();
 
+            if (current_frame == nullptr || next_frame == nullptr)
+            {
+                cout << "Ring buffer returned a null pointer!";
+                return -1;
+            }
+
             /* MATCH KEYPOINT DESCRIPTORS */
 
             vector<cv::DMatch> matches;
-            string matcherType = "MAT_FLANN";        // MAT_BF, MAT_FLANN
+            string matcherType = "MAT_FLANN";     // MAT_BF, MAT_FLANN
             string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
-            string selectorType = "SEL_KNN";       // SEL_NN, SEL_KNN
+            string selectorType = "SEL_KNN";      // SEL_NN, SEL_KNN
 
             //// STUDENT ASSIGNMENT
             //// TASK MP.5 -> add FLANN matching in file matching2D.cpp
