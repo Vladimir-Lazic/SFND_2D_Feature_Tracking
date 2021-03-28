@@ -58,3 +58,66 @@ SHITOMASI detector on image : 9; No. of keypoints: 112
 SHITOMASI detector and FREAK descriptor on image : 9; Processing time: 26.2549 ms
 SHITOMASI detector and FREAK descriptor on image : 9; No. of keypoint mathces: 85
 
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR FREAK
+SHITOMASI detector on image : 0; No. of keypoints: 125
+SHITOMASI detector and FREAK descriptor on image : 0; Processing time: 44.1396 ms
+SHITOMASI detector and FREAK descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR FREAK
+SHITOMASI detector on image : 1; No. of keypoints: 118
+SHITOMASI detector and FREAK descriptor on image : 1; Processing time: 30.3599 ms
+SHITOMASI detector and FREAK descriptor on image : 1; No. of keypoint mathces: 63
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR FREAK
+SHITOMASI detector on image : 2; No. of keypoints: 123
+SHITOMASI detector and FREAK descriptor on image : 2; Processing time: 34.0233 ms
+SHITOMASI detector and FREAK descriptor on image : 2; No. of keypoint mathces: 76
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR FREAK
+SHITOMASI detector on image : 3; No. of keypoints: 120
+SHITOMASI detector and FREAK descriptor on image : 3; Processing time: 43.9472 ms
+SHITOMASI detector and FREAK descriptor on image : 3; No. of keypoint mathces: 65
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR FREAK
+SHITOMASI detector on image : 4; No. of keypoints: 120
+SHITOMASI detector and FREAK descriptor on image : 4; Processing time: 28.0195 ms
+SHITOMASI detector and FREAK descriptor on image : 4; No. of keypoint mathces: 62
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR FREAK
+SHITOMASI detector on image : 5; No. of keypoints: 113
+SHITOMASI detector and FREAK descriptor on image : 5; Processing time: 26.1007 ms
+SHITOMASI detector and FREAK descriptor on image : 5; No. of keypoint mathces: 56
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR FREAK
+SHITOMASI detector on image : 6; No. of keypoints: 114
+SHITOMASI detector and FREAK descriptor on image : 6; Processing time: 26.2599 ms
+SHITOMASI detector and FREAK descriptor on image : 6; No. of keypoint mathces: 64
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR FREAK
+SHITOMASI detector on image : 7; No. of keypoints: 123
+SHITOMASI detector and FREAK descriptor on image : 7; Processing time: 27.1387 ms
+SHITOMASI detector and FREAK descriptor on image : 7; No. of keypoint mathces: 66
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR FREAK
+SHITOMASI detector on image : 8; No. of keypoints: 111
+SHITOMASI detector and FREAK descriptor on image : 8; Processing time: 30.6397 ms
+SHITOMASI detector and FREAK descriptor on image : 8; No. of keypoint mathces: 59
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR FREAK
+SHITOMASI detector on image : 9; No. of keypoints: 112
+SHITOMASI detector and FREAK descriptor on image : 9; Processing time: 50.8534 ms
+SHITOMASI detector and FREAK descriptor on image : 9; No. of keypoint mathces: 60
+
+AVERAGE TIME : 34.1482  ms 
+AVERAGE No. OF KEYPOINT MATHES : 63.4444
+

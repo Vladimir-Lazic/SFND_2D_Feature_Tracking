@@ -58,3 +58,66 @@ FAST detector on image : 9; No. of keypoints: 143
 FAST detector and BRISK descriptor on image : 9; Processing time: 24.0743 ms
 FAST detector and BRISK descriptor on image : 9; No. of keypoint mathces: 102
 
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRISK
+FAST detector on image : 0; No. of keypoints: 149
+FAST detector and BRISK descriptor on image : 0; Processing time: 29.4392 ms
+FAST detector and BRISK descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRISK
+FAST detector on image : 1; No. of keypoints: 152
+FAST detector and BRISK descriptor on image : 1; Processing time: 25.7726 ms
+FAST detector and BRISK descriptor on image : 1; No. of keypoint mathces: 86
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRISK
+FAST detector on image : 2; No. of keypoints: 150
+FAST detector and BRISK descriptor on image : 2; Processing time: 35.7065 ms
+FAST detector and BRISK descriptor on image : 2; No. of keypoint mathces: 94
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRISK
+FAST detector on image : 3; No. of keypoints: 155
+FAST detector and BRISK descriptor on image : 3; Processing time: 25.8321 ms
+FAST detector and BRISK descriptor on image : 3; No. of keypoint mathces: 88
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRISK
+FAST detector on image : 4; No. of keypoints: 149
+FAST detector and BRISK descriptor on image : 4; Processing time: 25.221 ms
+FAST detector and BRISK descriptor on image : 4; No. of keypoint mathces: 89
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRISK
+FAST detector on image : 5; No. of keypoints: 149
+FAST detector and BRISK descriptor on image : 5; Processing time: 28.6751 ms
+FAST detector and BRISK descriptor on image : 5; No. of keypoint mathces: 78
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRISK
+FAST detector on image : 6; No. of keypoints: 156
+FAST detector and BRISK descriptor on image : 6; Processing time: 24.3092 ms
+FAST detector and BRISK descriptor on image : 6; No. of keypoint mathces: 83
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRISK
+FAST detector on image : 7; No. of keypoints: 150
+FAST detector and BRISK descriptor on image : 7; Processing time: 23.8927 ms
+FAST detector and BRISK descriptor on image : 7; No. of keypoint mathces: 90
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRISK
+FAST detector on image : 8; No. of keypoints: 138
+FAST detector and BRISK descriptor on image : 8; Processing time: 25.4153 ms
+FAST detector and BRISK descriptor on image : 8; No. of keypoint mathces: 86
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRISK
+FAST detector on image : 9; No. of keypoints: 143
+FAST detector and BRISK descriptor on image : 9; Processing time: 24.0509 ms
+FAST detector and BRISK descriptor on image : 9; No. of keypoint mathces: 89
+
+AVERAGE TIME : 26.8315  ms 
+AVERAGE No. OF KEYPOINT MATHES : 87
+

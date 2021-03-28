@@ -58,3 +58,66 @@ ORB detector on image : 9; No. of keypoints: 128
 ORB detector and BRISK descriptor on image : 9; Processing time: 54.3466 ms
 ORB detector and BRISK descriptor on image : 9; No. of keypoint mathces: 84
 
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRISK
+ORB detector on image : 0; No. of keypoints: 92
+ORB detector and BRISK descriptor on image : 0; Processing time: 144.994 ms
+ORB detector and BRISK descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRISK
+ORB detector on image : 1; No. of keypoints: 102
+ORB detector and BRISK descriptor on image : 1; Processing time: 30.8324 ms
+ORB detector and BRISK descriptor on image : 1; No. of keypoint mathces: 71
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRISK
+ORB detector on image : 2; No. of keypoints: 106
+ORB detector and BRISK descriptor on image : 2; Processing time: 32.8282 ms
+ORB detector and BRISK descriptor on image : 2; No. of keypoint mathces: 74
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRISK
+ORB detector on image : 3; No. of keypoints: 113
+ORB detector and BRISK descriptor on image : 3; Processing time: 33.4054 ms
+ORB detector and BRISK descriptor on image : 3; No. of keypoint mathces: 75
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRISK
+ORB detector on image : 4; No. of keypoints: 109
+ORB detector and BRISK descriptor on image : 4; Processing time: 31.8125 ms
+ORB detector and BRISK descriptor on image : 4; No. of keypoint mathces: 82
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRISK
+ORB detector on image : 5; No. of keypoints: 125
+ORB detector and BRISK descriptor on image : 5; Processing time: 34.3507 ms
+ORB detector and BRISK descriptor on image : 5; No. of keypoint mathces: 83
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRISK
+ORB detector on image : 6; No. of keypoints: 130
+ORB detector and BRISK descriptor on image : 6; Processing time: 54.9933 ms
+ORB detector and BRISK descriptor on image : 6; No. of keypoint mathces: 99
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRISK
+ORB detector on image : 7; No. of keypoints: 129
+ORB detector and BRISK descriptor on image : 7; Processing time: 32.3996 ms
+ORB detector and BRISK descriptor on image : 7; No. of keypoint mathces: 86
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRISK
+ORB detector on image : 8; No. of keypoints: 127
+ORB detector and BRISK descriptor on image : 8; Processing time: 29.8798 ms
+ORB detector and BRISK descriptor on image : 8; No. of keypoint mathces: 80
+
+
+STATISTICS: DETECTOR ORB and DESCRIPTOR BRISK
+ORB detector on image : 9; No. of keypoints: 128
+ORB detector and BRISK descriptor on image : 9; Processing time: 31.6669 ms
+ORB detector and BRISK descriptor on image : 9; No. of keypoint mathces: 84
+
+AVERAGE TIME : 45.7163  ms 
+AVERAGE No. OF KEYPOINT MATHES : 81.5556
+

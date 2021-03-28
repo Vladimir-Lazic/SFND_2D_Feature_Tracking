@@ -1,60 +1,69 @@
 
 STATISTICS: DETECTOR HARRIS and DESCRIPTOR ORB
+HARRIS detector on image : 9; No. of keypoints: 34
+HARRIS detector and ORB descriptor on image : 9; Processing time: 166.956 ms
+HARRIS detector and ORB descriptor on image : 9; No. of keypoint mathces: 25
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR ORB
 HARRIS detector on image : 0; No. of keypoints: 17
-HARRIS detector and ORB descriptor on image : 0; Processing time: 16.3285 ms
+HARRIS detector and ORB descriptor on image : 0; Processing time: 16.6448 ms
 HARRIS detector and ORB descriptor on image : 0; No. of keypoint mathces: 0
 
 
 STATISTICS: DETECTOR HARRIS and DESCRIPTOR ORB
 HARRIS detector on image : 1; No. of keypoints: 14
-HARRIS detector and ORB descriptor on image : 1; Processing time: 13.2384 ms
-HARRIS detector and ORB descriptor on image : 1; No. of keypoint mathces: 12
+HARRIS detector and ORB descriptor on image : 1; Processing time: 13.3079 ms
+HARRIS detector and ORB descriptor on image : 1; No. of keypoint mathces: 11
 
 
 STATISTICS: DETECTOR HARRIS and DESCRIPTOR ORB
 HARRIS detector on image : 2; No. of keypoints: 18
-HARRIS detector and ORB descriptor on image : 2; Processing time: 12.2141 ms
-HARRIS detector and ORB descriptor on image : 2; No. of keypoint mathces: 15
+HARRIS detector and ORB descriptor on image : 2; Processing time: 14.8718 ms
+HARRIS detector and ORB descriptor on image : 2; No. of keypoint mathces: 12
 
 
 STATISTICS: DETECTOR HARRIS and DESCRIPTOR ORB
 HARRIS detector on image : 3; No. of keypoints: 21
-HARRIS detector and ORB descriptor on image : 3; Processing time: 13.4268 ms
+HARRIS detector and ORB descriptor on image : 3; Processing time: 13.8541 ms
 HARRIS detector and ORB descriptor on image : 3; No. of keypoint mathces: 15
 
 
 STATISTICS: DETECTOR HARRIS and DESCRIPTOR ORB
 HARRIS detector on image : 4; No. of keypoints: 26
-HARRIS detector and ORB descriptor on image : 4; Processing time: 15.2988 ms
-HARRIS detector and ORB descriptor on image : 4; No. of keypoint mathces: 19
+HARRIS detector and ORB descriptor on image : 4; Processing time: 31.2815 ms
+HARRIS detector and ORB descriptor on image : 4; No. of keypoint mathces: 18
 
 
 STATISTICS: DETECTOR HARRIS and DESCRIPTOR ORB
 HARRIS detector on image : 5; No. of keypoints: 43
-HARRIS detector and ORB descriptor on image : 5; Processing time: 17.1937 ms
-HARRIS detector and ORB descriptor on image : 5; No. of keypoint mathces: 26
+HARRIS detector and ORB descriptor on image : 5; Processing time: 41.1203 ms
+HARRIS detector and ORB descriptor on image : 5; No. of keypoint mathces: 21
 
 
 STATISTICS: DETECTOR HARRIS and DESCRIPTOR ORB
 HARRIS detector on image : 6; No. of keypoints: 18
-HARRIS detector and ORB descriptor on image : 6; Processing time: 20.9017 ms
-HARRIS detector and ORB descriptor on image : 6; No. of keypoint mathces: 16
+HARRIS detector and ORB descriptor on image : 6; Processing time: 15.6408 ms
+HARRIS detector and ORB descriptor on image : 6; No. of keypoint mathces: 15
 
 
 STATISTICS: DETECTOR HARRIS and DESCRIPTOR ORB
 HARRIS detector on image : 7; No. of keypoints: 31
-HARRIS detector and ORB descriptor on image : 7; Processing time: 11.6528 ms
-HARRIS detector and ORB descriptor on image : 7; No. of keypoint mathces: 20
+HARRIS detector and ORB descriptor on image : 7; Processing time: 12.3154 ms
+HARRIS detector and ORB descriptor on image : 7; No. of keypoint mathces: 15
 
 
 STATISTICS: DETECTOR HARRIS and DESCRIPTOR ORB
 HARRIS detector on image : 8; No. of keypoints: 26
-HARRIS detector and ORB descriptor on image : 8; Processing time: 14.5915 ms
-HARRIS detector and ORB descriptor on image : 8; No. of keypoint mathces: 22
+HARRIS detector and ORB descriptor on image : 8; Processing time: 11.7557 ms
+HARRIS detector and ORB descriptor on image : 8; No. of keypoint mathces: 18
 
 
 STATISTICS: DETECTOR HARRIS and DESCRIPTOR ORB
 HARRIS detector on image : 9; No. of keypoints: 34
-HARRIS detector and ORB descriptor on image : 9; Processing time: 16.1297 ms
-HARRIS detector and ORB descriptor on image : 9; No. of keypoint mathces: 25
+HARRIS detector and ORB descriptor on image : 9; Processing time: 13.8421 ms
+HARRIS detector and ORB descriptor on image : 9; No. of keypoint mathces: 22
+
+AVERAGE TIME : 18.4634  ms 
+AVERAGE No. OF KEYPOINT MATHES : 16.3333
 

@@ -58,3 +58,66 @@ HARRIS detector on image : 9; No. of keypoints: 34
 HARRIS detector and BRISK descriptor on image : 9; Processing time: 34.8184 ms
 HARRIS detector and BRISK descriptor on image : 9; No. of keypoint mathces: 21
 
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRISK
+HARRIS detector on image : 0; No. of keypoints: 17
+HARRIS detector and BRISK descriptor on image : 0; Processing time: 37.6785 ms
+HARRIS detector and BRISK descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRISK
+HARRIS detector on image : 1; No. of keypoints: 14
+HARRIS detector and BRISK descriptor on image : 1; Processing time: 34.275 ms
+HARRIS detector and BRISK descriptor on image : 1; No. of keypoint mathces: 10
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRISK
+HARRIS detector on image : 2; No. of keypoints: 18
+HARRIS detector and BRISK descriptor on image : 2; Processing time: 44.5627 ms
+HARRIS detector and BRISK descriptor on image : 2; No. of keypoint mathces: 11
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRISK
+HARRIS detector on image : 3; No. of keypoints: 21
+HARRIS detector and BRISK descriptor on image : 3; Processing time: 34.7111 ms
+HARRIS detector and BRISK descriptor on image : 3; No. of keypoint mathces: 11
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRISK
+HARRIS detector on image : 4; No. of keypoints: 26
+HARRIS detector and BRISK descriptor on image : 4; Processing time: 33.9556 ms
+HARRIS detector and BRISK descriptor on image : 4; No. of keypoint mathces: 13
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRISK
+HARRIS detector on image : 5; No. of keypoints: 43
+HARRIS detector and BRISK descriptor on image : 5; Processing time: 55.278 ms
+HARRIS detector and BRISK descriptor on image : 5; No. of keypoint mathces: 15
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRISK
+HARRIS detector on image : 6; No. of keypoints: 18
+HARRIS detector and BRISK descriptor on image : 6; Processing time: 53.2124 ms
+HARRIS detector and BRISK descriptor on image : 6; No. of keypoint mathces: 12
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRISK
+HARRIS detector on image : 7; No. of keypoints: 31
+HARRIS detector and BRISK descriptor on image : 7; Processing time: 33.0336 ms
+HARRIS detector and BRISK descriptor on image : 7; No. of keypoint mathces: 14
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRISK
+HARRIS detector on image : 8; No. of keypoints: 26
+HARRIS detector and BRISK descriptor on image : 8; Processing time: 31.9166 ms
+HARRIS detector and BRISK descriptor on image : 8; No. of keypoint mathces: 17
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRISK
+HARRIS detector on image : 9; No. of keypoints: 34
+HARRIS detector and BRISK descriptor on image : 9; Processing time: 36.0377 ms
+HARRIS detector and BRISK descriptor on image : 9; No. of keypoint mathces: 20
+
+AVERAGE TIME : 39.4661  ms 
+AVERAGE No. OF KEYPOINT MATHES : 13.6667
+

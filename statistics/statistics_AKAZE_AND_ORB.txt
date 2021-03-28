@@ -1,60 +1,69 @@
 
 STATISTICS: DETECTOR AKAZE and DESCRIPTOR ORB
+AKAZE detector on image : 9; No. of keypoints: 179
+AKAZE detector and ORB descriptor on image : 9; Processing time: 422.756 ms
+AKAZE detector and ORB descriptor on image : 9; No. of keypoint mathces: 116
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR ORB
 AKAZE detector on image : 0; No. of keypoints: 166
-AKAZE detector and ORB descriptor on image : 0; Processing time: 52.1231 ms
+AKAZE detector and ORB descriptor on image : 0; Processing time: 55.7158 ms
 AKAZE detector and ORB descriptor on image : 0; No. of keypoint mathces: 0
 
 
 STATISTICS: DETECTOR AKAZE and DESCRIPTOR ORB
 AKAZE detector on image : 1; No. of keypoints: 157
-AKAZE detector and ORB descriptor on image : 1; Processing time: 51.1593 ms
-AKAZE detector and ORB descriptor on image : 1; No. of keypoint mathces: 123
+AKAZE detector and ORB descriptor on image : 1; Processing time: 52.7658 ms
+AKAZE detector and ORB descriptor on image : 1; No. of keypoint mathces: 92
 
 
 STATISTICS: DETECTOR AKAZE and DESCRIPTOR ORB
 AKAZE detector on image : 2; No. of keypoints: 161
-AKAZE detector and ORB descriptor on image : 2; Processing time: 70.3067 ms
-AKAZE detector and ORB descriptor on image : 2; No. of keypoint mathces: 126
+AKAZE detector and ORB descriptor on image : 2; Processing time: 54.1902 ms
+AKAZE detector and ORB descriptor on image : 2; No. of keypoint mathces: 91
 
 
 STATISTICS: DETECTOR AKAZE and DESCRIPTOR ORB
 AKAZE detector on image : 3; No. of keypoints: 155
-AKAZE detector and ORB descriptor on image : 3; Processing time: 72.4788 ms
-AKAZE detector and ORB descriptor on image : 3; No. of keypoint mathces: 125
+AKAZE detector and ORB descriptor on image : 3; Processing time: 68.1878 ms
+AKAZE detector and ORB descriptor on image : 3; No. of keypoint mathces: 96
 
 
 STATISTICS: DETECTOR AKAZE and DESCRIPTOR ORB
 AKAZE detector on image : 4; No. of keypoints: 163
-AKAZE detector and ORB descriptor on image : 4; Processing time: 71.3148 ms
-AKAZE detector and ORB descriptor on image : 4; No. of keypoint mathces: 120
+AKAZE detector and ORB descriptor on image : 4; Processing time: 70.3296 ms
+AKAZE detector and ORB descriptor on image : 4; No. of keypoint mathces: 94
 
 
 STATISTICS: DETECTOR AKAZE and DESCRIPTOR ORB
 AKAZE detector on image : 5; No. of keypoints: 164
-AKAZE detector and ORB descriptor on image : 5; Processing time: 70.5411 ms
-AKAZE detector and ORB descriptor on image : 5; No. of keypoint mathces: 127
+AKAZE detector and ORB descriptor on image : 5; Processing time: 65.3887 ms
+AKAZE detector and ORB descriptor on image : 5; No. of keypoint mathces: 97
 
 
 STATISTICS: DETECTOR AKAZE and DESCRIPTOR ORB
 AKAZE detector on image : 6; No. of keypoints: 173
-AKAZE detector and ORB descriptor on image : 6; Processing time: 72.4531 ms
-AKAZE detector and ORB descriptor on image : 6; No. of keypoint mathces: 139
+AKAZE detector and ORB descriptor on image : 6; Processing time: 70.8398 ms
+AKAZE detector and ORB descriptor on image : 6; No. of keypoint mathces: 112
 
 
 STATISTICS: DETECTOR AKAZE and DESCRIPTOR ORB
 AKAZE detector on image : 7; No. of keypoints: 175
-AKAZE detector and ORB descriptor on image : 7; Processing time: 74.7629 ms
-AKAZE detector and ORB descriptor on image : 7; No. of keypoint mathces: 145
+AKAZE detector and ORB descriptor on image : 7; Processing time: 74.4971 ms
+AKAZE detector and ORB descriptor on image : 7; No. of keypoint mathces: 115
 
 
 STATISTICS: DETECTOR AKAZE and DESCRIPTOR ORB
 AKAZE detector on image : 8; No. of keypoints: 177
-AKAZE detector and ORB descriptor on image : 8; Processing time: 71.1193 ms
-AKAZE detector and ORB descriptor on image : 8; No. of keypoint mathces: 141
+AKAZE detector and ORB descriptor on image : 8; Processing time: 67.1223 ms
+AKAZE detector and ORB descriptor on image : 8; No. of keypoint mathces: 119
 
 
 STATISTICS: DETECTOR AKAZE and DESCRIPTOR ORB
 AKAZE detector on image : 9; No. of keypoints: 179
-AKAZE detector and ORB descriptor on image : 9; Processing time: 70.8237 ms
-AKAZE detector and ORB descriptor on image : 9; No. of keypoint mathces: 148
+AKAZE detector and ORB descriptor on image : 9; Processing time: 74.5947 ms
+AKAZE detector and ORB descriptor on image : 9; No. of keypoint mathces: 115
+
+AVERAGE TIME : 65.3632  ms 
+AVERAGE No. OF KEYPOINT MATHES : 103.444
 

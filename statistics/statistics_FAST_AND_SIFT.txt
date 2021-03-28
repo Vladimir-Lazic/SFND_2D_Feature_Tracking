@@ -58,3 +58,66 @@ FAST detector on image : 9; No. of keypoints: 143
 FAST detector and SIFT descriptor on image : 9; Processing time: 13.9234 ms
 FAST detector and SIFT descriptor on image : 9; No. of keypoint mathces: 83
 
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR SIFT
+FAST detector on image : 0; No. of keypoints: 149
+FAST detector and SIFT descriptor on image : 0; Processing time: 18.7071 ms
+FAST detector and SIFT descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR SIFT
+FAST detector on image : 1; No. of keypoints: 152
+FAST detector and SIFT descriptor on image : 1; Processing time: 12.3615 ms
+FAST detector and SIFT descriptor on image : 1; No. of keypoint mathces: 78
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR SIFT
+FAST detector on image : 2; No. of keypoints: 150
+FAST detector and SIFT descriptor on image : 2; Processing time: 13.9915 ms
+FAST detector and SIFT descriptor on image : 2; No. of keypoint mathces: 84
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR SIFT
+FAST detector on image : 3; No. of keypoints: 155
+FAST detector and SIFT descriptor on image : 3; Processing time: 12.5666 ms
+FAST detector and SIFT descriptor on image : 3; No. of keypoint mathces: 73
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR SIFT
+FAST detector on image : 4; No. of keypoints: 149
+FAST detector and SIFT descriptor on image : 4; Processing time: 13.2845 ms
+FAST detector and SIFT descriptor on image : 4; No. of keypoint mathces: 81
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR SIFT
+FAST detector on image : 5; No. of keypoints: 149
+FAST detector and SIFT descriptor on image : 5; Processing time: 13.3949 ms
+FAST detector and SIFT descriptor on image : 5; No. of keypoint mathces: 76
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR SIFT
+FAST detector on image : 6; No. of keypoints: 156
+FAST detector and SIFT descriptor on image : 6; Processing time: 12.7773 ms
+FAST detector and SIFT descriptor on image : 6; No. of keypoint mathces: 83
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR SIFT
+FAST detector on image : 7; No. of keypoints: 150
+FAST detector and SIFT descriptor on image : 7; Processing time: 14.2793 ms
+FAST detector and SIFT descriptor on image : 7; No. of keypoint mathces: 88
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR SIFT
+FAST detector on image : 8; No. of keypoints: 138
+FAST detector and SIFT descriptor on image : 8; Processing time: 16.8209 ms
+FAST detector and SIFT descriptor on image : 8; No. of keypoint mathces: 90
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR SIFT
+FAST detector on image : 9; No. of keypoints: 143
+FAST detector and SIFT descriptor on image : 9; Processing time: 13.0871 ms
+FAST detector and SIFT descriptor on image : 9; No. of keypoint mathces: 83
+
+AVERAGE TIME : 14.1271  ms 
+AVERAGE No. OF KEYPOINT MATHES : 81.7778
+

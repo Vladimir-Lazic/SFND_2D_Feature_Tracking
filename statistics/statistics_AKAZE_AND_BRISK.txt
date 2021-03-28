@@ -58,3 +58,66 @@ AKAZE detector on image : 9; No. of keypoints: 179
 AKAZE detector and BRISK descriptor on image : 9; Processing time: 73.8029 ms
 AKAZE detector and BRISK descriptor on image : 9; No. of keypoint mathces: 141
 
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRISK
+AKAZE detector on image : 0; No. of keypoints: 166
+AKAZE detector and BRISK descriptor on image : 0; Processing time: 72.5454 ms
+AKAZE detector and BRISK descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRISK
+AKAZE detector on image : 1; No. of keypoints: 157
+AKAZE detector and BRISK descriptor on image : 1; Processing time: 66.1572 ms
+AKAZE detector and BRISK descriptor on image : 1; No. of keypoint mathces: 120
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRISK
+AKAZE detector on image : 2; No. of keypoints: 161
+AKAZE detector and BRISK descriptor on image : 2; Processing time: 70.5737 ms
+AKAZE detector and BRISK descriptor on image : 2; No. of keypoint mathces: 112
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRISK
+AKAZE detector on image : 3; No. of keypoints: 155
+AKAZE detector and BRISK descriptor on image : 3; Processing time: 90.9763 ms
+AKAZE detector and BRISK descriptor on image : 3; No. of keypoint mathces: 117
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRISK
+AKAZE detector on image : 4; No. of keypoints: 163
+AKAZE detector and BRISK descriptor on image : 4; Processing time: 88.7741 ms
+AKAZE detector and BRISK descriptor on image : 4; No. of keypoint mathces: 120
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRISK
+AKAZE detector on image : 5; No. of keypoints: 164
+AKAZE detector and BRISK descriptor on image : 5; Processing time: 86.9406 ms
+AKAZE detector and BRISK descriptor on image : 5; No. of keypoint mathces: 118
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRISK
+AKAZE detector on image : 6; No. of keypoints: 173
+AKAZE detector and BRISK descriptor on image : 6; Processing time: 90.8338 ms
+AKAZE detector and BRISK descriptor on image : 6; No. of keypoint mathces: 131
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRISK
+AKAZE detector on image : 7; No. of keypoints: 175
+AKAZE detector and BRISK descriptor on image : 7; Processing time: 89.4069 ms
+AKAZE detector and BRISK descriptor on image : 7; No. of keypoint mathces: 130
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRISK
+AKAZE detector on image : 8; No. of keypoints: 177
+AKAZE detector and BRISK descriptor on image : 8; Processing time: 71.9862 ms
+AKAZE detector and BRISK descriptor on image : 8; No. of keypoint mathces: 142
+
+
+STATISTICS: DETECTOR AKAZE and DESCRIPTOR BRISK
+AKAZE detector on image : 9; No. of keypoints: 179
+AKAZE detector and BRISK descriptor on image : 9; Processing time: 89.5004 ms
+AKAZE detector and BRISK descriptor on image : 9; No. of keypoint mathces: 131
+
+AVERAGE TIME : 81.7695  ms 
+AVERAGE No. OF KEYPOINT MATHES : 124.556
+

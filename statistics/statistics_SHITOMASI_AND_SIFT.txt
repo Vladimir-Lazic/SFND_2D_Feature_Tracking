@@ -58,3 +58,66 @@ SHITOMASI detector on image : 9; No. of keypoints: 112
 SHITOMASI detector and SIFT descriptor on image : 9; Processing time: 21.743 ms
 SHITOMASI detector and SIFT descriptor on image : 9; No. of keypoint mathces: 71
 
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR SIFT
+SHITOMASI detector on image : 0; No. of keypoints: 125
+SHITOMASI detector and SIFT descriptor on image : 0; Processing time: 25.4105 ms
+SHITOMASI detector and SIFT descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR SIFT
+SHITOMASI detector on image : 1; No. of keypoints: 118
+SHITOMASI detector and SIFT descriptor on image : 1; Processing time: 20.8594 ms
+SHITOMASI detector and SIFT descriptor on image : 1; No. of keypoint mathces: 71
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR SIFT
+SHITOMASI detector on image : 2; No. of keypoints: 123
+SHITOMASI detector and SIFT descriptor on image : 2; Processing time: 18.986 ms
+SHITOMASI detector and SIFT descriptor on image : 2; No. of keypoint mathces: 69
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR SIFT
+SHITOMASI detector on image : 3; No. of keypoints: 120
+SHITOMASI detector and SIFT descriptor on image : 3; Processing time: 19.375 ms
+SHITOMASI detector and SIFT descriptor on image : 3; No. of keypoint mathces: 68
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR SIFT
+SHITOMASI detector on image : 4; No. of keypoints: 120
+SHITOMASI detector and SIFT descriptor on image : 4; Processing time: 21.6319 ms
+SHITOMASI detector and SIFT descriptor on image : 4; No. of keypoint mathces: 70
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR SIFT
+SHITOMASI detector on image : 5; No. of keypoints: 113
+SHITOMASI detector and SIFT descriptor on image : 5; Processing time: 20.7128 ms
+SHITOMASI detector and SIFT descriptor on image : 5; No. of keypoint mathces: 63
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR SIFT
+SHITOMASI detector on image : 6; No. of keypoints: 114
+SHITOMASI detector and SIFT descriptor on image : 6; Processing time: 21.0876 ms
+SHITOMASI detector and SIFT descriptor on image : 6; No. of keypoint mathces: 60
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR SIFT
+SHITOMASI detector on image : 7; No. of keypoints: 123
+SHITOMASI detector and SIFT descriptor on image : 7; Processing time: 22.4232 ms
+SHITOMASI detector and SIFT descriptor on image : 7; No. of keypoint mathces: 74
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR SIFT
+SHITOMASI detector on image : 8; No. of keypoints: 111
+SHITOMASI detector and SIFT descriptor on image : 8; Processing time: 21.5404 ms
+SHITOMASI detector and SIFT descriptor on image : 8; No. of keypoint mathces: 69
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR SIFT
+SHITOMASI detector on image : 9; No. of keypoints: 112
+SHITOMASI detector and SIFT descriptor on image : 9; Processing time: 25.3726 ms
+SHITOMASI detector and SIFT descriptor on image : 9; No. of keypoint mathces: 71
+
+AVERAGE TIME : 21.7399  ms 
+AVERAGE No. OF KEYPOINT MATHES : 68.3333
+

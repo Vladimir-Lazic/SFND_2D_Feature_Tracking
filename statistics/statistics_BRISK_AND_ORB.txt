@@ -1,60 +1,69 @@
 
 STATISTICS: DETECTOR BRISK and DESCRIPTOR ORB
+BRISK detector on image : 9; No. of keypoints: 142
+BRISK detector and ORB descriptor on image : 9; Processing time: 431.868 ms
+BRISK detector and ORB descriptor on image : 9; No. of keypoint mathces: 69
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR ORB
 BRISK detector on image : 0; No. of keypoints: 160
-BRISK detector and ORB descriptor on image : 0; Processing time: 53.5254 ms
+BRISK detector and ORB descriptor on image : 0; Processing time: 54.3471 ms
 BRISK detector and ORB descriptor on image : 0; No. of keypoint mathces: 0
 
 
 STATISTICS: DETECTOR BRISK and DESCRIPTOR ORB
 BRISK detector on image : 1; No. of keypoints: 164
-BRISK detector and ORB descriptor on image : 1; Processing time: 50.3191 ms
-BRISK detector and ORB descriptor on image : 1; No. of keypoint mathces: 107
+BRISK detector and ORB descriptor on image : 1; Processing time: 51.3199 ms
+BRISK detector and ORB descriptor on image : 1; No. of keypoint mathces: 73
 
 
 STATISTICS: DETECTOR BRISK and DESCRIPTOR ORB
 BRISK detector on image : 2; No. of keypoints: 158
-BRISK detector and ORB descriptor on image : 2; Processing time: 53.7106 ms
-BRISK detector and ORB descriptor on image : 2; No. of keypoint mathces: 107
+BRISK detector and ORB descriptor on image : 2; Processing time: 69.7385 ms
+BRISK detector and ORB descriptor on image : 2; No. of keypoint mathces: 73
 
 
 STATISTICS: DETECTOR BRISK and DESCRIPTOR ORB
 BRISK detector on image : 3; No. of keypoints: 162
-BRISK detector and ORB descriptor on image : 3; Processing time: 48.0026 ms
-BRISK detector and ORB descriptor on image : 3; No. of keypoint mathces: 97
+BRISK detector and ORB descriptor on image : 3; Processing time: 47.5128 ms
+BRISK detector and ORB descriptor on image : 3; No. of keypoint mathces: 52
 
 
 STATISTICS: DETECTOR BRISK and DESCRIPTOR ORB
 BRISK detector on image : 4; No. of keypoints: 159
-BRISK detector and ORB descriptor on image : 4; Processing time: 47.2655 ms
-BRISK detector and ORB descriptor on image : 4; No. of keypoint mathces: 99
+BRISK detector and ORB descriptor on image : 4; Processing time: 49.5549 ms
+BRISK detector and ORB descriptor on image : 4; No. of keypoint mathces: 65
 
 
 STATISTICS: DETECTOR BRISK and DESCRIPTOR ORB
 BRISK detector on image : 5; No. of keypoints: 156
-BRISK detector and ORB descriptor on image : 5; Processing time: 46.552 ms
-BRISK detector and ORB descriptor on image : 5; No. of keypoint mathces: 100
+BRISK detector and ORB descriptor on image : 5; Processing time: 70.6107 ms
+BRISK detector and ORB descriptor on image : 5; No. of keypoint mathces: 65
 
 
 STATISTICS: DETECTOR BRISK and DESCRIPTOR ORB
 BRISK detector on image : 6; No. of keypoints: 161
-BRISK detector and ORB descriptor on image : 6; Processing time: 48.0033 ms
-BRISK detector and ORB descriptor on image : 6; No. of keypoint mathces: 107
+BRISK detector and ORB descriptor on image : 6; Processing time: 66.7136 ms
+BRISK detector and ORB descriptor on image : 6; No. of keypoint mathces: 75
 
 
 STATISTICS: DETECTOR BRISK and DESCRIPTOR ORB
 BRISK detector on image : 7; No. of keypoints: 155
-BRISK detector and ORB descriptor on image : 7; Processing time: 46.5246 ms
-BRISK detector and ORB descriptor on image : 7; No. of keypoint mathces: 94
+BRISK detector and ORB descriptor on image : 7; Processing time: 64.8381 ms
+BRISK detector and ORB descriptor on image : 7; No. of keypoint mathces: 73
 
 
 STATISTICS: DETECTOR BRISK and DESCRIPTOR ORB
 BRISK detector on image : 8; No. of keypoints: 160
-BRISK detector and ORB descriptor on image : 8; Processing time: 47.5006 ms
-BRISK detector and ORB descriptor on image : 8; No. of keypoint mathces: 104
+BRISK detector and ORB descriptor on image : 8; Processing time: 50.0338 ms
+BRISK detector and ORB descriptor on image : 8; No. of keypoint mathces: 73
 
 
 STATISTICS: DETECTOR BRISK and DESCRIPTOR ORB
 BRISK detector on image : 9; No. of keypoints: 142
-BRISK detector and ORB descriptor on image : 9; Processing time: 51.3322 ms
-BRISK detector and ORB descriptor on image : 9; No. of keypoint mathces: 99
+BRISK detector and ORB descriptor on image : 9; Processing time: 49.8961 ms
+BRISK detector and ORB descriptor on image : 9; No. of keypoint mathces: 73
+
+AVERAGE TIME : 57.4566  ms 
+AVERAGE No. OF KEYPOINT MATHES : 69.1111
 

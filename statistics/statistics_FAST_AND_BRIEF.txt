@@ -58,3 +58,66 @@ FAST detector on image : 9; No. of keypoints: 143
 FAST detector and BRIEF descriptor on image : 9; Processing time: 1.50664 ms
 FAST detector and BRIEF descriptor on image : 9; No. of keypoint mathces: 118
 
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRIEF
+FAST detector on image : 0; No. of keypoints: 149
+FAST detector and BRIEF descriptor on image : 0; Processing time: 2.9397 ms
+FAST detector and BRIEF descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRIEF
+FAST detector on image : 1; No. of keypoints: 152
+FAST detector and BRIEF descriptor on image : 1; Processing time: 2.84386 ms
+FAST detector and BRIEF descriptor on image : 1; No. of keypoint mathces: 91
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRIEF
+FAST detector on image : 2; No. of keypoints: 150
+FAST detector and BRIEF descriptor on image : 2; Processing time: 2.3133 ms
+FAST detector and BRIEF descriptor on image : 2; No. of keypoint mathces: 97
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRIEF
+FAST detector on image : 3; No. of keypoints: 155
+FAST detector and BRIEF descriptor on image : 3; Processing time: 5.89467 ms
+FAST detector and BRIEF descriptor on image : 3; No. of keypoint mathces: 96
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRIEF
+FAST detector on image : 4; No. of keypoints: 149
+FAST detector and BRIEF descriptor on image : 4; Processing time: 3.70281 ms
+FAST detector and BRIEF descriptor on image : 4; No. of keypoint mathces: 90
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRIEF
+FAST detector on image : 5; No. of keypoints: 149
+FAST detector and BRIEF descriptor on image : 5; Processing time: 6.0396 ms
+FAST detector and BRIEF descriptor on image : 5; No. of keypoint mathces: 99
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRIEF
+FAST detector on image : 6; No. of keypoints: 156
+FAST detector and BRIEF descriptor on image : 6; Processing time: 1.50928 ms
+FAST detector and BRIEF descriptor on image : 6; No. of keypoint mathces: 110
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRIEF
+FAST detector on image : 7; No. of keypoints: 150
+FAST detector and BRIEF descriptor on image : 7; Processing time: 1.45271 ms
+FAST detector and BRIEF descriptor on image : 7; No. of keypoint mathces: 99
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRIEF
+FAST detector on image : 8; No. of keypoints: 138
+FAST detector and BRIEF descriptor on image : 8; Processing time: 1.44963 ms
+FAST detector and BRIEF descriptor on image : 8; No. of keypoint mathces: 100
+
+
+STATISTICS: DETECTOR FAST and DESCRIPTOR BRIEF
+FAST detector on image : 9; No. of keypoints: 143
+FAST detector and BRIEF descriptor on image : 9; Processing time: 1.44905 ms
+FAST detector and BRIEF descriptor on image : 9; No. of keypoint mathces: 101
+
+AVERAGE TIME : 2.95946  ms 
+AVERAGE No. OF KEYPOINT MATHES : 98.1111
+

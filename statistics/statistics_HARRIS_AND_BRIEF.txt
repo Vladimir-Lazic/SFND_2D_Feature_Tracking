@@ -58,3 +58,66 @@ HARRIS detector on image : 9; No. of keypoints: 34
 HARRIS detector and BRIEF descriptor on image : 9; Processing time: 14.0346 ms
 HARRIS detector and BRIEF descriptor on image : 9; No. of keypoint mathces: 27
 
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRIEF
+HARRIS detector on image : 0; No. of keypoints: 17
+HARRIS detector and BRIEF descriptor on image : 0; Processing time: 11.0461 ms
+HARRIS detector and BRIEF descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRIEF
+HARRIS detector on image : 1; No. of keypoints: 14
+HARRIS detector and BRIEF descriptor on image : 1; Processing time: 10.1703 ms
+HARRIS detector and BRIEF descriptor on image : 1; No. of keypoint mathces: 12
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRIEF
+HARRIS detector on image : 2; No. of keypoints: 18
+HARRIS detector and BRIEF descriptor on image : 2; Processing time: 10.3221 ms
+HARRIS detector and BRIEF descriptor on image : 2; No. of keypoint mathces: 15
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRIEF
+HARRIS detector on image : 3; No. of keypoints: 21
+HARRIS detector and BRIEF descriptor on image : 3; Processing time: 8.6138 ms
+HARRIS detector and BRIEF descriptor on image : 3; No. of keypoint mathces: 13
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRIEF
+HARRIS detector on image : 4; No. of keypoints: 26
+HARRIS detector and BRIEF descriptor on image : 4; Processing time: 29.7244 ms
+HARRIS detector and BRIEF descriptor on image : 4; No. of keypoint mathces: 16
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRIEF
+HARRIS detector on image : 5; No. of keypoints: 43
+HARRIS detector and BRIEF descriptor on image : 5; Processing time: 36.432 ms
+HARRIS detector and BRIEF descriptor on image : 5; No. of keypoint mathces: 24
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRIEF
+HARRIS detector on image : 6; No. of keypoints: 18
+HARRIS detector and BRIEF descriptor on image : 6; Processing time: 13.8258 ms
+HARRIS detector and BRIEF descriptor on image : 6; No. of keypoint mathces: 17
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRIEF
+HARRIS detector on image : 7; No. of keypoints: 31
+HARRIS detector and BRIEF descriptor on image : 7; Processing time: 11.0185 ms
+HARRIS detector and BRIEF descriptor on image : 7; No. of keypoint mathces: 16
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRIEF
+HARRIS detector on image : 8; No. of keypoints: 26
+HARRIS detector and BRIEF descriptor on image : 8; Processing time: 10.9885 ms
+HARRIS detector and BRIEF descriptor on image : 8; No. of keypoint mathces: 18
+
+
+STATISTICS: DETECTOR HARRIS and DESCRIPTOR BRIEF
+HARRIS detector on image : 9; No. of keypoints: 34
+HARRIS detector and BRIEF descriptor on image : 9; Processing time: 13.2523 ms
+HARRIS detector and BRIEF descriptor on image : 9; No. of keypoint mathces: 21
+
+AVERAGE TIME : 15.5394  ms 
+AVERAGE No. OF KEYPOINT MATHES : 16.8889
+

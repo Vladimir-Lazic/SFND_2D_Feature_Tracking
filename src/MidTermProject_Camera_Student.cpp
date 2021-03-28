@@ -41,8 +41,10 @@ int main(int argc, const char *argv[])
     ring_buffer<DataFrame> img_buffer(dataBufferSize);
     bool bVis = false; // visualize results
 
-    /* MAIN LOOP OVER ALL IMAGES */
+    double avg_time = 0;
+    double avg_number_of_keypoints_matches = 0;
 
+    /* MAIN LOOP OVER ALL IMAGES */
     for (size_t imgIndex = 0; imgIndex <= imgEndIndex - imgStartIndex; imgIndex++)
     {
         /* 
@@ -72,9 +74,13 @@ int main(int argc, const char *argv[])
             - only keep keypoints on the preceding vehicle
          */
 
+        if (imgIndex == 0)
+        {
+            avg_time = 0;
+        }
         double t = (double)cv::getTickCount();
         vector<cv::KeyPoint> keypoints;
-        string detectorType = "SIFT"; // SHITOMASI, HARRIS, FAST, BRISK, ORB, AKAZE and SIFT
+        string detectorType = "ORB"; // SHITOMASI, HARRIS, FAST, BRISK, ORB, AKAZE and SIFT
 
         try
         {
@@ -125,7 +131,7 @@ int main(int argc, const char *argv[])
         */
 
         cv::Mat descriptors;
-        string descriptorType = "SIFT"; // BRISK, BRIEF, ORB, FREAK, AKAZE and SIFT
+        string descriptorType = "BRISK"; // BRISK, BRIEF, ORB, FREAK, AKAZE and SIFT
         try
         {
             keypoints_descriptor(frame.keypoints, frame.cameraImg, descriptors, descriptorType);
@@ -143,6 +149,7 @@ int main(int argc, const char *argv[])
         cout << "#3 : EXTRACT DESCRIPTORS done" << endl;
 
         t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
+        avg_time += 1000 * t / 1.0;
 
         int number_of_keypoints_matches = 0;
         if (img_buffer.size() > 1) // wait until at least two images have been processed
@@ -160,9 +167,9 @@ int main(int argc, const char *argv[])
             /* MATCH KEYPOINT DESCRIPTORS */
 
             vector<cv::DMatch> matches;
-            string matcherType = "MAT_BF";        // MAT_BF, MAT_FLANN
-            string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
-            string selectorType = "SEL_KNN";      // SEL_NN, SEL_KNN
+            string matcherType = "MAT_BF";      // MAT_BF, MAT_FLANN
+            string descriptor_type = "DES_BINARY"; // DES_BINARY, DES_HOG
+            string selectorType = "SEL_KNN";       // SEL_NN, SEL_KNN
 
             //// STUDENT ASSIGNMENT
             //// TASK MP.5 -> add FLANN matching in file matching2D.cpp
@@ -170,10 +177,11 @@ int main(int argc, const char *argv[])
 
             matchDescriptors(next_frame->keypoints, current_frame->keypoints,
                              next_frame->descriptors, current_frame->descriptors,
-                             matches, descriptorType, matcherType, selectorType);
+                             matches, descriptor_type, matcherType, selectorType);
 
             //// EOF STUDENT ASSIGNMENT
             number_of_keypoints_matches = matches.size();
+            avg_number_of_keypoints_matches += number_of_keypoints_matches;
 
             // store matches in current data frame
             current_frame->kptMatches = matches;
@@ -194,6 +202,12 @@ int main(int argc, const char *argv[])
                 string windowName = "Matching keypoints between two camera images";
                 cv::namedWindow(windowName, 7);
                 cv::imshow(windowName, matchImg);
+                bool save_to_file = false;
+                if (save_to_file)
+                {
+                    string image_output = "../images/readme_images/" + detectorType + "_AND_" + descriptorType + ".png";
+                    cv::imwrite(image_output, matchImg);
+                }
                 cout << "Press key to continue to next image" << endl;
                 cv::waitKey(0); // wait for key to be pressed
             }
@@ -214,6 +228,12 @@ int main(int argc, const char *argv[])
             statistics_file << detectorType << " detector and " << descriptorType << " descriptor on image : " << imgStartIndex + imgIndex << "; Processing time: " << 1000 * t / 1.0 << " ms" << endl;
 
             statistics_file << detectorType << " detector and " << descriptorType << " descriptor on image : " << imgStartIndex + imgIndex << "; No. of keypoint mathces: " << number_of_keypoints_matches << endl;
+
+            if (imgIndex == imgEndIndex - imgStartIndex)
+            {
+                statistics_file << "\nAVERAGE TIME : " << avg_time / 10 << "  ms " << endl;
+                statistics_file << "AVERAGE No. OF KEYPOINT MATHES : " << avg_number_of_keypoints_matches / 9 << endl;
+            }
 
             statistics_file << endl;
         }

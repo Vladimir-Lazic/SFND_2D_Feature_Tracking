@@ -58,3 +58,66 @@ BRISK detector on image : 9; No. of keypoints: 142
 BRISK detector and SIFT descriptor on image : 9; Processing time: 55.0244 ms
 BRISK detector and SIFT descriptor on image : 9; No. of keypoint mathces: 51
 
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR SIFT
+BRISK detector on image : 0; No. of keypoints: 160
+BRISK detector and SIFT descriptor on image : 0; Processing time: 62.94 ms
+BRISK detector and SIFT descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR SIFT
+BRISK detector on image : 1; No. of keypoints: 164
+BRISK detector and SIFT descriptor on image : 1; Processing time: 57.6694 ms
+BRISK detector and SIFT descriptor on image : 1; No. of keypoint mathces: 36
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR SIFT
+BRISK detector on image : 2; No. of keypoints: 158
+BRISK detector and SIFT descriptor on image : 2; Processing time: 61.5828 ms
+BRISK detector and SIFT descriptor on image : 2; No. of keypoint mathces: 58
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR SIFT
+BRISK detector on image : 3; No. of keypoints: 162
+BRISK detector and SIFT descriptor on image : 3; Processing time: 60.2778 ms
+BRISK detector and SIFT descriptor on image : 3; No. of keypoint mathces: 32
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR SIFT
+BRISK detector on image : 4; No. of keypoints: 159
+BRISK detector and SIFT descriptor on image : 4; Processing time: 56.8592 ms
+BRISK detector and SIFT descriptor on image : 4; No. of keypoint mathces: 38
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR SIFT
+BRISK detector on image : 5; No. of keypoints: 156
+BRISK detector and SIFT descriptor on image : 5; Processing time: 58.0904 ms
+BRISK detector and SIFT descriptor on image : 5; No. of keypoint mathces: 28
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR SIFT
+BRISK detector on image : 6; No. of keypoints: 161
+BRISK detector and SIFT descriptor on image : 6; Processing time: 79.7353 ms
+BRISK detector and SIFT descriptor on image : 6; No. of keypoint mathces: 52
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR SIFT
+BRISK detector on image : 7; No. of keypoints: 155
+BRISK detector and SIFT descriptor on image : 7; Processing time: 76.0285 ms
+BRISK detector and SIFT descriptor on image : 7; No. of keypoint mathces: 41
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR SIFT
+BRISK detector on image : 8; No. of keypoints: 160
+BRISK detector and SIFT descriptor on image : 8; Processing time: 58.1579 ms
+BRISK detector and SIFT descriptor on image : 8; No. of keypoint mathces: 50
+
+
+STATISTICS: DETECTOR BRISK and DESCRIPTOR SIFT
+BRISK detector on image : 9; No. of keypoints: 142
+BRISK detector and SIFT descriptor on image : 9; Processing time: 56.2747 ms
+BRISK detector and SIFT descriptor on image : 9; No. of keypoint mathces: 51
+
+AVERAGE TIME : 62.7616  ms 
+AVERAGE No. OF KEYPOINT MATHES : 42.8889
+

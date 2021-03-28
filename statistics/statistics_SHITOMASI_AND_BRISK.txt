@@ -58,3 +58,252 @@ SHITOMASI detector on image : 9; No. of keypoints: 112
 SHITOMASI detector and BRISK descriptor on image : 9; Processing time: 32.914 ms
 SHITOMASI detector and BRISK descriptor on image : 9; No. of keypoint mathces: 80
 
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 0; No. of keypoints: 125
+SHITOMASI detector and BRISK descriptor on image : 0; Processing time: 37.6234 ms
+SHITOMASI detector and BRISK descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 1; No. of keypoints: 118
+SHITOMASI detector and BRISK descriptor on image : 1; Processing time: 37.0098 ms
+SHITOMASI detector and BRISK descriptor on image : 1; No. of keypoint mathces: 78
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 2; No. of keypoints: 123
+SHITOMASI detector and BRISK descriptor on image : 2; Processing time: 33.4193 ms
+SHITOMASI detector and BRISK descriptor on image : 2; No. of keypoint mathces: 79
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 3; No. of keypoints: 120
+SHITOMASI detector and BRISK descriptor on image : 3; Processing time: 32.6904 ms
+SHITOMASI detector and BRISK descriptor on image : 3; No. of keypoint mathces: 75
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 4; No. of keypoints: 120
+SHITOMASI detector and BRISK descriptor on image : 4; Processing time: 34.9164 ms
+SHITOMASI detector and BRISK descriptor on image : 4; No. of keypoint mathces: 83
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 5; No. of keypoints: 113
+SHITOMASI detector and BRISK descriptor on image : 5; Processing time: 31.8086 ms
+SHITOMASI detector and BRISK descriptor on image : 5; No. of keypoint mathces: 73
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 6; No. of keypoints: 114
+SHITOMASI detector and BRISK descriptor on image : 6; Processing time: 31.4573 ms
+SHITOMASI detector and BRISK descriptor on image : 6; No. of keypoint mathces: 67
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 7; No. of keypoints: 123
+SHITOMASI detector and BRISK descriptor on image : 7; Processing time: 36.0389 ms
+SHITOMASI detector and BRISK descriptor on image : 7; No. of keypoint mathces: 76
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 8; No. of keypoints: 111
+SHITOMASI detector and BRISK descriptor on image : 8; Processing time: 31.9429 ms
+SHITOMASI detector and BRISK descriptor on image : 8; No. of keypoint mathces: 79
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 9; No. of keypoints: 112
+SHITOMASI detector and BRISK descriptor on image : 9; Processing time: 33.757 ms
+SHITOMASI detector and BRISK descriptor on image : 9; No. of keypoint mathces: 73
+AVERAGE TIME : 0.0340664  ms 
+AVERAGE No. OF KEYPOINT MATHES : 8.11111
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 0; No. of keypoints: 125
+SHITOMASI detector and BRISK descriptor on image : 0; Processing time: 38.9157 ms
+SHITOMASI detector and BRISK descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 1; No. of keypoints: 118
+SHITOMASI detector and BRISK descriptor on image : 1; Processing time: 34.0156 ms
+SHITOMASI detector and BRISK descriptor on image : 1; No. of keypoint mathces: 78
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 2; No. of keypoints: 123
+SHITOMASI detector and BRISK descriptor on image : 2; Processing time: 32.686 ms
+SHITOMASI detector and BRISK descriptor on image : 2; No. of keypoint mathces: 79
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 3; No. of keypoints: 120
+SHITOMASI detector and BRISK descriptor on image : 3; Processing time: 35.9751 ms
+SHITOMASI detector and BRISK descriptor on image : 3; No. of keypoint mathces: 75
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 4; No. of keypoints: 120
+SHITOMASI detector and BRISK descriptor on image : 4; Processing time: 34.159 ms
+SHITOMASI detector and BRISK descriptor on image : 4; No. of keypoint mathces: 83
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 5; No. of keypoints: 113
+SHITOMASI detector and BRISK descriptor on image : 5; Processing time: 34.215 ms
+SHITOMASI detector and BRISK descriptor on image : 5; No. of keypoint mathces: 73
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 6; No. of keypoints: 114
+SHITOMASI detector and BRISK descriptor on image : 6; Processing time: 33.9459 ms
+SHITOMASI detector and BRISK descriptor on image : 6; No. of keypoint mathces: 67
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 7; No. of keypoints: 123
+SHITOMASI detector and BRISK descriptor on image : 7; Processing time: 33.4399 ms
+SHITOMASI detector and BRISK descriptor on image : 7; No. of keypoint mathces: 76
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 8; No. of keypoints: 111
+SHITOMASI detector and BRISK descriptor on image : 8; Processing time: 32.915 ms
+SHITOMASI detector and BRISK descriptor on image : 8; No. of keypoint mathces: 79
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 9; No. of keypoints: 112
+SHITOMASI detector and BRISK descriptor on image : 9; Processing time: 32.3195 ms
+SHITOMASI detector and BRISK descriptor on image : 9; No. of keypoint mathces: 73
+AVERAGE TIME : 0.0342587  ms 
+AVERAGE No. OF KEYPOINT MATHES : 75.8889
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 0; No. of keypoints: 125
+SHITOMASI detector and BRISK descriptor on image : 0; Processing time: 34.9579 ms
+SHITOMASI detector and BRISK descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 1; No. of keypoints: 118
+SHITOMASI detector and BRISK descriptor on image : 1; Processing time: 33.1361 ms
+SHITOMASI detector and BRISK descriptor on image : 1; No. of keypoint mathces: 78
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 2; No. of keypoints: 123
+SHITOMASI detector and BRISK descriptor on image : 2; Processing time: 31.851 ms
+SHITOMASI detector and BRISK descriptor on image : 2; No. of keypoint mathces: 79
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 3; No. of keypoints: 120
+SHITOMASI detector and BRISK descriptor on image : 3; Processing time: 54.562 ms
+SHITOMASI detector and BRISK descriptor on image : 3; No. of keypoint mathces: 75
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 4; No. of keypoints: 120
+SHITOMASI detector and BRISK descriptor on image : 4; Processing time: 55.3055 ms
+SHITOMASI detector and BRISK descriptor on image : 4; No. of keypoint mathces: 83
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 5; No. of keypoints: 113
+SHITOMASI detector and BRISK descriptor on image : 5; Processing time: 57.6321 ms
+SHITOMASI detector and BRISK descriptor on image : 5; No. of keypoint mathces: 73
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 6; No. of keypoints: 114
+SHITOMASI detector and BRISK descriptor on image : 6; Processing time: 55.5015 ms
+SHITOMASI detector and BRISK descriptor on image : 6; No. of keypoint mathces: 67
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 7; No. of keypoints: 123
+SHITOMASI detector and BRISK descriptor on image : 7; Processing time: 58.8844 ms
+SHITOMASI detector and BRISK descriptor on image : 7; No. of keypoint mathces: 76
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 8; No. of keypoints: 111
+SHITOMASI detector and BRISK descriptor on image : 8; Processing time: 60.5916 ms
+SHITOMASI detector and BRISK descriptor on image : 8; No. of keypoint mathces: 79
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 9; No. of keypoints: 112
+SHITOMASI detector and BRISK descriptor on image : 9; Processing time: 33.633 ms
+SHITOMASI detector and BRISK descriptor on image : 9; No. of keypoint mathces: 73
+AVERAGE TIME : 47.6055  ms 
+AVERAGE No. OF KEYPOINT MATHES : 75.8889
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 0; No. of keypoints: 125
+SHITOMASI detector and BRISK descriptor on image : 0; Processing time: 39.8369 ms
+SHITOMASI detector and BRISK descriptor on image : 0; No. of keypoint mathces: 0
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 1; No. of keypoints: 118
+SHITOMASI detector and BRISK descriptor on image : 1; Processing time: 32.5258 ms
+SHITOMASI detector and BRISK descriptor on image : 1; No. of keypoint mathces: 78
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 2; No. of keypoints: 123
+SHITOMASI detector and BRISK descriptor on image : 2; Processing time: 34.4813 ms
+SHITOMASI detector and BRISK descriptor on image : 2; No. of keypoint mathces: 79
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 3; No. of keypoints: 120
+SHITOMASI detector and BRISK descriptor on image : 3; Processing time: 33.3666 ms
+SHITOMASI detector and BRISK descriptor on image : 3; No. of keypoint mathces: 75
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 4; No. of keypoints: 120
+SHITOMASI detector and BRISK descriptor on image : 4; Processing time: 37.0919 ms
+SHITOMASI detector and BRISK descriptor on image : 4; No. of keypoint mathces: 83
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 5; No. of keypoints: 113
+SHITOMASI detector and BRISK descriptor on image : 5; Processing time: 56.7235 ms
+SHITOMASI detector and BRISK descriptor on image : 5; No. of keypoint mathces: 73
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 6; No. of keypoints: 114
+SHITOMASI detector and BRISK descriptor on image : 6; Processing time: 54.6634 ms
+SHITOMASI detector and BRISK descriptor on image : 6; No. of keypoint mathces: 67
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 7; No. of keypoints: 123
+SHITOMASI detector and BRISK descriptor on image : 7; Processing time: 41.651 ms
+SHITOMASI detector and BRISK descriptor on image : 7; No. of keypoint mathces: 76
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 8; No. of keypoints: 111
+SHITOMASI detector and BRISK descriptor on image : 8; Processing time: 59.9041 ms
+SHITOMASI detector and BRISK descriptor on image : 8; No. of keypoint mathces: 79
+
+
+STATISTICS: DETECTOR SHITOMASI and DESCRIPTOR BRISK
+SHITOMASI detector on image : 9; No. of keypoints: 112
+SHITOMASI detector and BRISK descriptor on image : 9; Processing time: 58.8222 ms
+SHITOMASI detector and BRISK descriptor on image : 9; No. of keypoint mathces: 73
+
+AVERAGE TIME : 44.9067  ms 
+AVERAGE No. OF KEYPOINT MATHES : 75.8889
+

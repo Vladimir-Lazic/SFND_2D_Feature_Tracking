@@ -36,7 +36,7 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
         cout << "FLANN matching";
     }
 
-    double minDescDistRatio = 0.8;
+    
     // perform matching task
     if (selectorType.compare("SEL_NN") == 0)
     { // nearest neighbor (best match)
@@ -57,6 +57,7 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
         t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
         cout << " KNN with n=" << knn_matches.size() << " matches in " << 1000 * t / 1.0 << " ms" << endl;
 
+        double minDescDistRatio = 0.8;
         for (auto it = knn_matches.begin(); it != knn_matches.end(); ++it)
         {
             if ((*it)[0].distance < minDescDistRatio * (*it)[1].distance)
@@ -186,6 +187,12 @@ static void detect_keypoints_ShiTomasi(vector<cv::KeyPoint> &keypoints, cv::Mat 
         string windowName = "Shi-Tomasi Corner Detector Results";
         cv::namedWindow(windowName, 6);
         imshow(windowName, visImage);
+        bool save_to_file = false;
+        if (save_to_file)
+        {
+            string image_output = "../images/readme_images/ShiTomasi.png";
+            cv::imwrite(image_output, visImage);
+        }
         cv::waitKey(0);
     }
 }
@@ -257,6 +264,12 @@ static void detect_keypoints_Harris(std::vector<cv::KeyPoint> &keypoints, cv::Ma
         string windowName = "Harris Corner Detector Results";
         cv::namedWindow(windowName, 6);
         imshow(windowName, visImage);
+        bool save_to_file = false;
+        if (save_to_file)
+        {
+            string image_output = "../images/readme_images/Harris.png";
+            cv::imwrite(image_output, visImage);
+        }
         cv::waitKey(0);
     }
 }
@@ -284,6 +297,12 @@ static void detect_keypoints_Fast(std::vector<cv::KeyPoint> &keypoints, cv::Mat 
         string windowName = "FAST Detector Results";
         cv::namedWindow(windowName, 6);
         imshow(windowName, visImage);
+        bool save_to_file = false;
+        if (save_to_file)
+        {
+            string image_output = "../images/readme_images/Fast.png";
+            cv::imwrite(image_output, visImage);
+        }
         cv::waitKey(0);
     }
 }
@@ -308,6 +327,12 @@ static void detect_keypoints_Brisk(std::vector<cv::KeyPoint> &keypoints, cv::Mat
         string windowName = "BRISK Detector Results";
         cv::namedWindow(windowName, 6);
         imshow(windowName, visImage);
+        bool save_to_file = false;
+        if (save_to_file)
+        {
+            string image_output = "../images/readme_images/Brisk.png";
+            cv::imwrite(image_output, visImage);
+        }
         cv::waitKey(0);
     }
 }
@@ -327,6 +352,12 @@ static void detect_keypoints_Orb(std::vector<cv::KeyPoint> &keypoints, cv::Mat &
         string windowName = "ORB Detector Results";
         cv::namedWindow(windowName, 6);
         imshow(windowName, visImage);
+        bool save_to_file = false;
+        if (save_to_file)
+        {
+            string image_output = "../images/readme_images/orb.png";
+            cv::imwrite(image_output, visImage);
+        }
         cv::waitKey(0);
     }
 }
@@ -346,6 +377,12 @@ static void detect_keypoints_Akaze(std::vector<cv::KeyPoint> &keypoints, cv::Mat
         string windowName = "AKAZE Detector Results";
         cv::namedWindow(windowName, 6);
         imshow(windowName, visImage);
+        bool save_to_file = false;
+        if (save_to_file)
+        {
+            string image_output = "../images/readme_images/akaze.png";
+            cv::imwrite(image_output, visImage);
+        }
         cv::waitKey(0);
     }
 }
@@ -365,6 +402,12 @@ static void detect_keypoints_Sift(std::vector<cv::KeyPoint> &keypoints, cv::Mat 
         string windowName = "SIFT Detector Results";
         cv::namedWindow(windowName, 6);
         imshow(windowName, visImage);
+        bool save_to_file = false;
+        if (save_to_file)
+        {
+            string image_output = "../images/readme_images/sift.png";
+            cv::imwrite(image_output, visImage);
+        }
         cv::waitKey(0);
     }
 }
