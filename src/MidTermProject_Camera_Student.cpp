@@ -214,7 +214,7 @@ int main(int argc, const char *argv[])
             bVis = false;
         }
 
-        bool statistics = true;
+        bool statistics = false;
         if (statistics)
         {
             ofstream statistics_file;
