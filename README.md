@@ -84,7 +84,7 @@ AKAZE          | 166         | 157         | 161         | 155         | 163    
 SIFT           | 138         | 132         | 124         | 137         | 134         | 140         | 137         | 148         | 159         | 137
 
 ## MP.8 Performance Evaluation 2
-In the table bellow we se the total number of matched keypoints for all 9 match instances using all possible detector-descriptor combinations 
+In the table bellow we see the total number of matched keypoints for all 9 match instances using all possible detector-descriptor combinations. In the horizontal axis the descriptors are listed, and in the vertical the detectors.  
 Descriptor/Detector Type  |     BRISK   |     BRIEF   |      ORB    |     FREAK   |     AKAZE   |  SIFT 
 -------------             | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: 
 SHITOMASI                 | 81          | 89          | 85          | 63          | N.A.        | 68         
@@ -96,6 +96,7 @@ AKAZE                     | 124         | 121         | 103         |108        
 SIFT                      | 60          |  65         | N.A.        | 53          | N.A.        | 51         
 
 ## MP.9 Performance Evaluation 3
+In the table bellow we see the average processing time for all detector-descriptor combination applied and averaged on all 10 input images. In the horizontal axis the descriptors are listed, and in the vertical the detectors. Based on these results we can make a proposition that the top 3 fastest detector-descriptor combinations are: FAST + BRIEF, FAST + ORB, FAST + SIFT. 
 
 Descriptor/Detector Type  |     BRISK   |     BRIEF   |      ORB    |     FREAK   |     AKAZE   |  SIFT 
 -------------             | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: 
