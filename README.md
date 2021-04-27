@@ -1,6 +1,6 @@
 # SFND 2D Feature Tracking
 
-<img src="images/keypoints.png" width="820" height="248" />
+<img src="images/akaze.gif" width="820" height="248" />
 
 [//]: # (Image References)
 
@@ -17,6 +17,7 @@
 [image11]: ./images/readme_images/focus_on_car.png "Focus on car"
 [image12]: ./images/readme_images/distanceratio.png "Distance Ration"
 [image13]: ./images/readme_images/AKAZE_AND_AKAZE.png "AKAZE and AKAZE"
+
 
 # Project Overview
 Bellow I will address each point in the [project rubric](https://review.udacity.com/#!/rubrics/2549/view) regarding the implementation of the project and the statistics measurements
