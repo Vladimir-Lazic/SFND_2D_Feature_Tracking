@@ -23,7 +23,7 @@
 Bellow I will address each point in the [project rubric](https://review.udacity.com/#!/rubrics/2549/view) regarding the implementation of the project and the statistics measurements
 
 ## MP.1 Data Buffer Optimization
-For memory optimization instead of a std::vector for storing incoming images a ring buffer is used. The implementation of the ring buffer can be found at `./src/ring_buffer.h` file. It is implemented as a template class and in the project it is instantiated with the DataFrame structure an a size of 3. The ring buffer has two indexes: head & tail. The mechanism is the following: 
+For memory optimization instead of a `std::vector` for storing incoming images a ring buffer is used. The implementation of the ring buffer can be found at `./src/ring_buffer.h` file. It is implemented as a template class and in the project it is instantiated with the DataFrame structure an a size of 3. The ring buffer has two indexes: head & tail. The mechanism is the following: 
 
 - The images are inserted in the buffer at the position of the head 
 - With each new image inserted we advance the head index and scale it with the size of the buffer
